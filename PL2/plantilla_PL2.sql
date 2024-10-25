@@ -124,7 +124,11 @@ FROM Usuario_temp
 WHERE Nombre_usuario IS NOT NULL;
 
 INSERT INTO Canciones (Titulo, Duracion, Titulo_disco, Año_disco)
-SELECT Titulo, Duracion, Titulo_disco, Año_disco
+SELECT 
+    Titulo,
+    TO_TIMESTAMP(SPLIT_PART(Duracion, ':', 1) || ':' || SPLIT_PART(Duracion, ':', 2), 'MI:SS') - TIMESTAMP '1970-01-01 00:00:00' AS Duracion,
+    Titulo_disco,
+    Año_disco
 FROM Canciones_temp
 WHERE Titulo IS NOT NULL;
 
