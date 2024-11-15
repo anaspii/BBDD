@@ -19,6 +19,7 @@ CREATE TABLE IF NOT EXISTS temporal.discos(
     Titulo TEXT,
     Anno_publicacion TEXT,
     Nombre_grupo TEXT,
+    Url_grupo TEXT,
     Generos TEXT,
     Url_portada TEXT
 );
@@ -75,12 +76,13 @@ CREATE TABLE IF NOT EXISTS temporal.tiene(
 
 
 -- Cargar datos desde los CSV al esquema temporal
-\copy temporal.discos (Id_disco, Titulo, Anno_publicacion, Nombre_grupo, Generos, Url_portada) FROM 'discos.csv' WITH CSV HEADER;
-\copy temporal.usuario (Nombre, Nombre_usuario, Email, Contrasena) FROM 'usuarios.csv' WITH CSV HEADER;
-\copy temporal.canciones (Id_disco, Titulo, Duracion) FROM 'canciones.csv' WITH CSV HEADER;
-\copy temporal.ediciones (Id_disco, Anno_edicion, Pais, Formato) FROM 'ediciones.csv' WITH CSV HEADER;
-\copy temporal.desea (Nombre_usuario, Titulo_disco, Anno_publicacion) FROM 'usuario_desea_disco.csv' WITH CSV HEADER;
-\copy temporal.tiene (Nombre_usuario, Titulo_disco, Anno_publicacion, Anno_edicion, Pais, Formato) FROM 'usuario_tiene_edicion.csv' WITH CSV HEADER;
+
+\COPY temporal.discos FROM 'discos.csv' WITH (FORMAT csv, HEADER, DELIMITER ';', NULL 'NULL', ENCODING 'UTF-8');
+\COPY temporal.usuario FROM 'usuarios.csv' WITH (FORMAT csv, HEADER, DELIMITER ';', NULL 'NULL', ENCODING 'UTF-8');
+\COPY temporal.canciones FROM 'canciones.csv' WITH (FORMAT csv, HEADER, DELIMITER ';', NULL 'NULL', ENCODING 'UTF-8');
+\COPY temporal.ediciones FROM 'ediciones.csv' WITH (FORMAT csv, HEADER, DELIMITER ';', NULL 'NULL', ENCODING 'UTF-8');
+\COPY temporal.desea FROM 'usuario_desea_disco.csv' WITH (FORMAT csv, HEADER, DELIMITER ';', NULL 'NULL', ENCODING 'UTF-8');
+\COPY temporal.tiene FROM 'usuario_tiene_edicion.csv' WITH (FORMAT csv, HEADER, DELIMITER ';', NULL 'NULL', ENCODING 'UTF-8');
 
 
 \echo 'Datos cargados en el esquema temporal'
@@ -91,34 +93,34 @@ CREATE TABLE IF NOT EXISTS temporal.tiene(
 
 CREATE SCHEMA IF NOT EXISTS bbdd;
 
+-- Tabla Grupo
+CREATE TABLE bbdd.grupos (
+    Nombre VARCHAR(200) NOT NULL,
+    Url_grupo TEXT,
+    PRIMARY KEY (Nombre, Url_grupo)
+);
+
 
 -- Tabla Discos
 CREATE TABLE bbdd.discos (
     Id_disco INT,
-    Titulo VARCHAR(100) NOT NULL,
+    Titulo VARCHAR(200) NOT NULL,
     Anno_publicacion INT,
-    Nombre_grupo VARCHAR(100) NOT NULL,
-    Generos VARCHAR(100),
+    Nombre_grupo VARCHAR(200) NOT NULL,
+    Url_grupo TEXT,
+    Generos VARCHAR(200),
     Url_portada TEXT,
     PRIMARY KEY (Id_disco, Titulo, Anno_publicacion),
-    FOREIGN KEY (Nombre_grupo) REFERENCES bbdd.grupos(Nombre)
-);
-
-
--- Tabla Grupo
-CREATE TABLE bbdd.grupos (
-    Nombre VARCHAR(100) NOT NULL,
-    Url_grupo TEXT,
-    PRIMARY KEY (Nombre)
+    FOREIGN KEY (Nombre_grupo, Url_grupo) REFERENCES bbdd.grupos(Nombre, Url_grupo)
 );
 
 
 -- Tabla Usuario
 CREATE TABLE bbdd.usuario (
-    Nombre VARCHAR(100),
-    Nombre_usuario VARCHAR(100) NOT NULL,
-    Email VARCHAR(100),
-    Contrasena VARCHAR(100),
+    Nombre VARCHAR(200),
+    Nombre_usuario VARCHAR(200) NOT NULL,
+    Email VARCHAR(200),
+    Contrasena VARCHAR(200),
     PRIMARY KEY (Nombre_usuario)
 );
 
@@ -126,8 +128,8 @@ CREATE TABLE bbdd.usuario (
 -- Tabla Canciones
 CREATE TABLE bbdd.canciones (
     Id_disco INT,
-    Titulo VARCHAR(100) NOT NULL,
-    Duracion INTERVAL,
+    Titulo VARCHAR(200) NOT NULL,
+    Duracion TIME,
     PRIMARY KEY (Titulo),
     FOREIGN KEY (Id_disco) REFERENCES bbdd.discos(Id_disco)
 );
@@ -137,32 +139,21 @@ CREATE TABLE bbdd.canciones (
 CREATE TABLE bbdd.ediciones (
     Id_disco INT,
     Anno_edicion INT,
-    Pais VARCHAR(100),
-    Formato VARCHAR(100),
+    Pais VARCHAR(200),
+    Formato VARCHAR(200),
     PRIMARY KEY (Formato, Anno_edicion, Pais),
     FOREIGN KEY (Id_disco) REFERENCES bbdd.discos(Id_disco)
-);
-
-
--- Tabla Edita (relacion discos - Grupo)
-CREATE TABLE bbdd.edita (
-    Nombre_grupo VARCHAR(100),
-    Titulo_disco VARCHAR(100),
-    Anno_publicacion INT,
-    PRIMARY KEY (Nombre_grupo, Titulo_disco, Anno_publicacion),
-    FOREIGN KEY (Nombre_grupo) REFERENCES bbdd.grupos(Nombre),
-    FOREIGN KEY (Titulo_disco, Anno_publicacion) REFERENCES bbdd.discos(Id_disco, Titulo, Anno_publicacion)
 );
 
 
 -- Tabla Tiene (relacion Usuario - Ediciones)
 CREATE TABLE bbdd.tiene (
     Nombre_usuario VARCHAR(255),
-    Titulo_disco VARCHAR(100),
+    Titulo_disco VARCHAR(200),
     Anno_publicacion INT,
     Anno_edicion INT,
-    Pais_edicion VARCHAR(100),
-    Formato_edicion VARCHAR(100),
+    Pais_edicion VARCHAR(200),
+    Formato_edicion VARCHAR(200),
     Estado VARCHAR(10),
     PRIMARY KEY (Nombre_usuario, Formato_edicion, Anno_edicion, Pais),
     FOREIGN KEY (Nombre_usuario) REFERENCES bbdd.usuario(Nombre_usuario),
@@ -174,7 +165,7 @@ CREATE TABLE bbdd.tiene (
 -- Tabla Desea (relacion Usuario - Ediciones)
 CREATE TABLE bbdd.desea (
     Nombre_usuario VARCHAR(255),
-    Titulo_disco VARCHAR(100),
+    Titulo_disco VARCHAR(200),
     Anno_publicacion INT,
     PRIMARY KEY (Nombre_usuario, Titulo_disco, Anno_publicacion),
     FOREIGN KEY (Nombre_usuario) REFERENCES bbdd.usuario(Nombre_usuario),
@@ -193,86 +184,79 @@ CREATE TABLE bbdd.desea (
 \echo 'Insertando datos en el esquema final'
 
 
-INSERT INTO bbdd.discos (Id_disco, Titulo, Anno_publicacion, Nombre_grupo, Generos, Url_portada)
-SELECT
-    Id_disco,
+INSERT INTO bbdd.discos (Id_disco, Titulo, Anno_publicacion, Nombre_grupo, Url_grupo, Generos, Url_portada)
+SELECT DISTINCT
+    Id_disco::INT,
     Titulo,
-    Anno_publicacion,
+    Anno_publicacion::INT,
     Nombre_grupo,
+    Url_grupo,
     Generos,
     Url_portada
 FROM temporal.discos
-WHERE Titulo IS NOT NULL;
+ON CONFLICT (Id_disco, Titulo, Anno_publicacion, Genero, Url_portada) DO NOTHING;
 
 
 INSERT INTO bbdd.grupos (Nombre, Url_grupo)
-SELECT
+SELECT DISTINCT
     Nombre,
     Url_grupo
 FROM temporal.grupos
-WHERE Nombre IS NOT NULL;
+ON CONFLICT (Nombre, Url_grupo) DO NOTHING;;
 
 
 INSERT INTO bbdd.usuario (Nombre, Nombre_usuario, Email, Contrasena)
-SELECT
+SELECT DISTINCT
     Nombre,
     Nombre_usuario,
     Email,
     Contrasena
 FROM temporal.usuario
-WHERE Nombre_usuario IS NOT NULL;
+ON CONFLICT (Nombre, Nombre_usuario, Email, Contrasena) DO NOTHING;
 
 
 INSERT INTO bbdd.canciones (Id_disco, Titulo, Duracion)
-SELECT 
-    Id_disco,
+SELECT DISTINCT
+    Id_disco::INT,
     Titulo,
-    TO_TIMESTAMP(SPLIT_PART(Duracion, ':', 1) || ':' || SPLIT_PART(Duracion, ':', 2), 'MI:SS') AS Duracion
+    TO_TIMESTAMP(Duracion, 'MI:SS')::TIME AS Duracion
 FROM temporal.canciones
-WHERE Titulo IS NOT NULL;
+ON CONFLICT (Titulo, Duracion) DO NOTHING;;
 
 
 INSERT INTO bbdd.ediciones (Id_disco, Anno_edicion, Pais, Formato)
-SELECT
-    Id_disco,
-    Anno_edicion,
+SELECT DISTINCT
+    Id_disco::INT,
+    Anno_edicion::INT,
     Pais,
     Formato
 FROM temporal.ediciones
-WHERE Formato IS NOT NULL AND Pais IS NOT NULL;
+ON CONFLICT (Anno_edicion, Pais, Formato) DO NOTHING;;
 
 
 INSERT INTO bbdd.desea (Nombre_usuario, Titulo_disco, Anno_publicacion)
-SELECT
+SELECT DISTINCT
     Nombre_usuario,
     Titulo_disco,
-    Anno_publicacion
+    Anno_publicacion::INT
 FROM temporal.desea
-WHERE Nombre_usuario IS NOT NULL;
+ON CONFLICT (Nombre_usuario, Titulo_disco, Anno_publicacion) DO NOTHING;;
 
 
 INSERT INTO bbdd.tiene (Nombre_usuario, Titulo_disco, Anno_publicacion, Anno_edicion, Pais_edicion, Formato_edicion, Estado)
-SELECT
+SELECT DISTINCT
     Nombre_usuario,
     Titulo_disco,
-    Anno_publicacion,
-    Anno_edicion,
+    Anno_publicacion::INT,
+    Anno_edicion::INT,
     Pais_edicion,
     Formato_edicion,
     Estado
 FROM temporal.tiene
-WHERE Nombre_usuario IS NOT NULL;
+ON CONFLICT (Estado) DO NOTHING;;
 
 
 \echo 'Datos insertados al esquema final'
-
-
--- Eliminar esquema temporal
-DROP SCHEMA IF EXISTS temporal CASCADE;
-
-
-\echo 'Esquema temporal eliminado'
-
 
 
 
@@ -438,4 +422,4 @@ LIMIT 1;
 
 
 
-ROLLBACK;                       -- importante! permite correr el script multiples veces...
+ROLLBACK;                     -- importante! permite correr el script multiples veces...
