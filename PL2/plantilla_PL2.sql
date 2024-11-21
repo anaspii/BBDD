@@ -202,7 +202,7 @@ SELECT DISTINCT
     Nombre,
     Url_grupo
 FROM temporal.grupos
-ON CONFLICT (Nombre, Url_grupo) DO NOTHING;;
+ON CONFLICT (Nombre, Url_grupo) DO NOTHING;
 
 
 INSERT INTO bbdd.usuario (Nombre, Nombre_usuario, Email, Contrasena)
@@ -221,7 +221,7 @@ SELECT DISTINCT
     Titulo,
     TO_TIMESTAMP(Duracion, 'MI:SS')::TIME AS Duracion
 FROM temporal.canciones
-ON CONFLICT (Titulo, Duracion) DO NOTHING;;
+ON CONFLICT (Titulo, Duracion) DO NOTHING;
 
 
 INSERT INTO bbdd.ediciones (Id_disco, Anno_edicion, Pais, Formato)
@@ -231,7 +231,7 @@ SELECT DISTINCT
     Pais,
     Formato
 FROM temporal.ediciones
-ON CONFLICT (Anno_edicion, Pais, Formato) DO NOTHING;;
+ON CONFLICT (Anno_edicion, Pais, Formato) DO NOTHING;
 
 
 INSERT INTO bbdd.desea (Nombre_usuario, Titulo_disco, Anno_publicacion)
@@ -240,7 +240,7 @@ SELECT DISTINCT
     Titulo_disco,
     Anno_publicacion::INT
 FROM temporal.desea
-ON CONFLICT (Nombre_usuario, Titulo_disco, Anno_publicacion) DO NOTHING;;
+ON CONFLICT (Nombre_usuario, Titulo_disco, Anno_publicacion) DO NOTHING;
 
 
 INSERT INTO bbdd.tiene (Nombre_usuario, Titulo_disco, Anno_publicacion, Anno_edicion, Pais_edicion, Formato_edicion, Estado)
@@ -253,7 +253,7 @@ SELECT DISTINCT
     Formato_edicion,
     Estado
 FROM temporal.tiene
-ON CONFLICT (Estado) DO NOTHING;;
+ON CONFLICT (Estado) DO NOTHING;
 
 
 \echo 'Datos insertados al esquema final'
