@@ -131,7 +131,6 @@ CREATE TABLE bbdd.canciones (
     Anno_disco INT,
     CONSTRAINT canciones_pk PRIMARY KEY (Titulo),
     CONSTRAINT discos_fk FOREIGN KEY (Nombre_discos, Anno_disco) REFERENCES bbdd.discos(Nombre, Anno_publicacion)
-    ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 
@@ -145,7 +144,6 @@ CREATE TABLE bbdd.ediciones (
     Anno_disco INT,
     CONSTRAINT ediciones_pk PRIMARY KEY (Formato, Anno_edicion, Pais),
     CONSTRAINT discos_fk FOREIGN KEY (Nombre_discos, Anno_disco) REFERENCES bbdd.discos(Nombre, Anno_publicacion)
-    ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 
@@ -156,10 +154,8 @@ CREATE TABLE bbdd.edita (
     Nombre_discos VARCHAR(250),
     Anno_disco INT,
     CONSTRAINT edita_pk PRIMARY KEY (Nombre_grupo, Nombre_discos, Anno_disco),
-    CONSTRAINT grupos_fk FOREIGN KEY (Nombre_grupo) REFERENCES bbdd.grupos(Nombre)
-    ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT grupos_fk FOREIGN KEY (Nombre_grupo) REFERENCES bbdd.grupos(Nombre),
     CONSTRAINT discos_fk FOREIGN KEY (Nombre_discos, Anno_disco) REFERENCES bbdd.discos(Nombre, Anno_publicacion)
-    ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 
@@ -174,12 +170,9 @@ CREATE TABLE bbdd.tiene (
     Pais_edicion VARCHAR(250),
     Estado VARCHAR(250),
     CONSTRAINT tiene_pk PRIMARY KEY (Nombre_usuario, Nombre_discos, Anno_disco, Formato_edicion, Anno_edicion, Pais_edicion),
-    CONSTRAINT usuario_fk FOREIGN KEY (Nombre_usuario) REFERENCES bbdd.usuario(Nombre_usuario)
-    ON DELETE CASCADE ON UPDATE CASCADE,
-    CONSTRAINT discos_fk FOREIGN KEY (Nombre_discos, Anno_disco) REFERENCES bbdd.discos(Nombre, Anno_publicacion)
-    ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT usuario_fk FOREIGN KEY (Nombre_usuario) REFERENCES bbdd.usuario(Nombre_usuario),
+    CONSTRAINT discos_fk FOREIGN KEY (Nombre_discos, Anno_disco) REFERENCES bbdd.discos(Nombre, Anno_publicacion),
     CONSTRAINT ediciones_fk FOREIGN KEY (Formato_edicion, Anno_edicion, Pais_edicion) REFERENCES bbdd.ediciones(Formato, Anno_edicion, Pais)
-    ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 
@@ -190,10 +183,8 @@ CREATE TABLE bbdd.desea (
     Nombre_discos VARCHAR(250),
     Anno_disco INT,
     CONSTRAINT desea_pk PRIMARY KEY (Nombre_usuario, Nombre_discos, Anno_disco),
-    CONSTRAINT usuario_fk FOREIGN KEY (Nombre_usuario) REFERENCES bbdd.usuario(Nombre_usuario)
-    ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT usuario_fk FOREIGN KEY (Nombre_usuario) REFERENCES bbdd.usuario(Nombre_usuario),
     CONSTRAINT discos_fk FOREIGN KEY (Nombre_discos, Anno_disco) REFERENCES bbdd.discos(Nombre, Anno_publicacion)
-    ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 
@@ -213,6 +204,7 @@ SELECT DISTINCT
     discos.Anno_publicacion::INT,
     discos.Url_portada
 FROM temporal.discos
+WHERE discos.Anno_publicacion IS NOT NULL
 ON CONFLICT (Nombre,Anno_publicacion) DO NOTHING;
 
 
@@ -238,14 +230,13 @@ ON CONFLICT (Nombre_usuario) DO NOTHING;
 
 
 \echo 'Insertamos los datos de temporal.canciones a bbdd.canciones'
--- INSERT INTO bbdd.canciones (Titulo, Duracion, Nombre_discos, Anno_disco)
 INSERT INTO bbdd.canciones (Titulo, Duracion, Nombre_discos, Anno_disco)
 SELECT DISTINCT
     canciones.Titulo,
     TO_CHAR(
         MAKE_INTERVAL(
-            mins => SPLIT_PART(canciones.Duracion, ':', 1)::INT,
-            secs => SPLIT_PART(canciones.Duracion, ':', 2)::INT
+            mins => COALESCE(SPLIT_PART(canciones.Duracion, ':', 1)::INT, 0),
+            secs => COALESCE(SPLIT_PART(canciones.Duracion, ':', 2)::INT, 0)
         )::TIME,
         'MI:SS'
     ) AS Duracion,
@@ -335,7 +326,7 @@ SELECT DISTINCT
 FROM bbdd.tiene
 JOIN bbdd.ediciones ON tiene.Formato_edicion = ediciones.Formato AND tiene.Anno_edicion = ediciones.Anno_edicion AND tiene.Pais_edicion = ediciones.Pais
 JOIN bbdd.usuario ON tiene.Nombre_usuario = usuario.Nombre_usuario
-WHERE usuario.Nombre = '%Juan Garcia Gomez%';
+WHERE usuario.Nombre = 'Juan García Gómez';
 
 
 \echo 'Consulta 3: Disco con mayor duración de la colección.'
@@ -358,7 +349,7 @@ FROM bbdd.desea
 JOIN bbdd.edita ON desea.Nombre_discos = edita.Nombre_discos AND desea.Anno_disco = edita.Anno_disco
 JOIN bbdd.grupos ON edita.Nombre_grupo = grupos.Nombre
 JOIN bbdd.usuario ON desea.Nombre_usuario = usuario.Nombre_usuario
-WHERE usuario.Nombre = '%Juan Garcia Gomez%';
+WHERE usuario.Nombre = 'Juan Garcia Gomez';
 
 
 \echo 'Consulta 5: Mostrar los discos publicados entre 1970 y 1972 junto con sus ediciones ordenados por el anno de publicacion'
@@ -445,9 +436,6 @@ JOIN bbdd.usuario ON tiene.Nombre_usuario = usuario.Nombre_usuario
 GROUP BY usuario.Nombre
 ORDER BY COUNT(tiene.Nombre_discos) DESC
 LIMIT 1;
-
-
-
 
 
 ROLLBACK;                     -- importante! permite correr el script multiples veces...
