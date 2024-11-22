@@ -23,14 +23,6 @@ CREATE TABLE IF NOT EXISTS temporal.discos(
 );
 
 
-\echo 'Creando esquema temporal.grupos'
-CREATE TABLE IF NOT EXISTS temporal.grupos(
-    Id_grupo TEXT,
-    Nombre TEXT,
-    Url_grupo TEXT
-);
-
-
 \echo 'Creando esquema temporal.usuario'
 CREATE TABLE IF NOT EXISTS temporal.usuario(
     Nombre TEXT,
@@ -134,11 +126,12 @@ CREATE TABLE bbdd.usuario (
 -- Tabla Canciones
 CREATE TABLE bbdd.canciones (
     Titulo VARCHAR(250) NOT NULL,
-    Duracion TIME,
+    Duracion VARCHAR(20),
     Nombre_discos VARCHAR(250),
     Anno_disco INT,
     CONSTRAINT canciones_pk PRIMARY KEY (Titulo),
     CONSTRAINT discos_fk FOREIGN KEY (Nombre_discos, Anno_disco) REFERENCES bbdd.discos(Nombre, Anno_publicacion)
+    ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 
@@ -152,6 +145,7 @@ CREATE TABLE bbdd.ediciones (
     Anno_disco INT,
     CONSTRAINT ediciones_pk PRIMARY KEY (Formato, Anno_edicion, Pais),
     CONSTRAINT discos_fk FOREIGN KEY (Nombre_discos, Anno_disco) REFERENCES bbdd.discos(Nombre, Anno_publicacion)
+    ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 
@@ -162,8 +156,10 @@ CREATE TABLE bbdd.edita (
     Nombre_discos VARCHAR(250),
     Anno_disco INT,
     CONSTRAINT edita_pk PRIMARY KEY (Nombre_grupo, Nombre_discos, Anno_disco),
-    CONSTRAINT grupos_fk FOREIGN KEY (Nombre_grupo) REFERENCES bbdd.grupos(Nombre),
+    CONSTRAINT grupos_fk FOREIGN KEY (Nombre_grupo) REFERENCES bbdd.grupos(Nombre)
+    ON DELETE CASCADE ON UPDATE CASCADE,
     CONSTRAINT discos_fk FOREIGN KEY (Nombre_discos, Anno_disco) REFERENCES bbdd.discos(Nombre, Anno_publicacion)
+    ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 
@@ -178,9 +174,12 @@ CREATE TABLE bbdd.tiene (
     Pais_edicion VARCHAR(250),
     Estado VARCHAR(250),
     CONSTRAINT tiene_pk PRIMARY KEY (Nombre_usuario, Nombre_discos, Anno_disco, Formato_edicion, Anno_edicion, Pais_edicion),
-    CONSTRAINT usuario_fk FOREIGN KEY (Nombre_usuario) REFERENCES bbdd.usuario(Nombre_usuario),
-    CONSTRAINT discos_fk FOREIGN KEY (Nombre_discos, Anno_disco) REFERENCES bbdd.discos(Nombre, Anno_publicacion),
+    CONSTRAINT usuario_fk FOREIGN KEY (Nombre_usuario) REFERENCES bbdd.usuario(Nombre_usuario)
+    ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT discos_fk FOREIGN KEY (Nombre_discos, Anno_disco) REFERENCES bbdd.discos(Nombre, Anno_publicacion)
+    ON DELETE CASCADE ON UPDATE CASCADE,
     CONSTRAINT ediciones_fk FOREIGN KEY (Formato_edicion, Anno_edicion, Pais_edicion) REFERENCES bbdd.ediciones(Formato, Anno_edicion, Pais)
+    ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 
@@ -191,8 +190,10 @@ CREATE TABLE bbdd.desea (
     Nombre_discos VARCHAR(250),
     Anno_disco INT,
     CONSTRAINT desea_pk PRIMARY KEY (Nombre_usuario, Nombre_discos, Anno_disco),
-    CONSTRAINT usuario_fk FOREIGN KEY (Nombre_usuario) REFERENCES bbdd.usuario(Nombre_usuario),
+    CONSTRAINT usuario_fk FOREIGN KEY (Nombre_usuario) REFERENCES bbdd.usuario(Nombre_usuario)
+    ON DELETE CASCADE ON UPDATE CASCADE,
     CONSTRAINT discos_fk FOREIGN KEY (Nombre_discos, Anno_disco) REFERENCES bbdd.discos(Nombre, Anno_publicacion)
+    ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 
@@ -238,7 +239,21 @@ ON CONFLICT (Nombre_usuario) DO NOTHING;
 
 \echo 'Insertamos los datos de temporal.canciones a bbdd.canciones'
 -- INSERT INTO bbdd.canciones (Titulo, Duracion, Nombre_discos, Anno_disco)
-
+INSERT INTO bbdd.canciones (Titulo, Duracion, Nombre_discos, Anno_disco)
+SELECT DISTINCT
+    canciones.Titulo,
+    TO_CHAR(
+        MAKE_INTERVAL(
+            mins => SPLIT_PART(canciones.Duracion, ':', 1)::INT,
+            secs => SPLIT_PART(canciones.Duracion, ':', 2)::INT
+        )::TIME,
+        'MI:SS'
+    ) AS Duracion,
+    discos.Nombre,
+    discos.Anno_publicacion::INT
+FROM temporal.canciones
+JOIN temporal.discos ON canciones.Id_disco = discos.Id_disco
+ON CONFLICT (Titulo) DO NOTHING;
 
 
 
@@ -313,16 +328,27 @@ HAVING COUNT(Nombre_discos) > 5;
 
 \echo 'Consulta 2: Mostrar los vinilos que tiene el usuario Juan Garcia Gomez junto con el titulo del disco, y el pais y anno de edicion'
 
-SELECT ediciones.Nombre_discos, ediciones.Anno_disco, ediciones.Pais, ediciones.Anno_edicion
+SELECT DISTINCT
+    ediciones.Nombre_discos,
+    ediciones.Pais,
+    ediciones.Anno_edicion
 FROM bbdd.tiene
 JOIN bbdd.ediciones ON tiene.Formato_edicion = ediciones.Formato AND tiene.Anno_edicion = ediciones.Anno_edicion AND tiene.Pais_edicion = ediciones.Pais
 JOIN bbdd.usuario ON tiene.Nombre_usuario = usuario.Nombre_usuario
-WHERE usuario.Nombre = 'Juan Garcia Gomez';
+WHERE usuario.Nombre = '%Juan Garcia Gomez%';
 
 
 \echo 'Consulta 3: Disco con mayor duración de la colección.'
 
-
+SELECT 
+    discos.Nombre AS Nombre_disco,
+    discos.Anno_publicacion,
+    SUM(EXTRACT(EPOCH FROM ('00:' || canciones.Duracion)::INTERVAL)) AS Duracion_total_segundos
+FROM bbdd.canciones canciones
+JOIN bbdd.discos discos ON canciones.Nombre_discos = discos.Nombre AND canciones.Anno_disco = discos.Anno_publicacion
+GROUP BY discos.Nombre, discos.Anno_publicacion
+ORDER BY Duracion_total_segundos DESC
+LIMIT 1;
 
 
 \echo 'Consulta 4: De los discos que tiene en su lista de deseos el usuario Juan Garcia Gomez, indicar el nombre de los grupos musicales que los interpretan.'
@@ -332,7 +358,7 @@ FROM bbdd.desea
 JOIN bbdd.edita ON desea.Nombre_discos = edita.Nombre_discos AND desea.Anno_disco = edita.Anno_disco
 JOIN bbdd.grupos ON edita.Nombre_grupo = grupos.Nombre
 JOIN bbdd.usuario ON desea.Nombre_usuario = usuario.Nombre_usuario
-WHERE usuario.Nombre = 'Juan Garcia Gomez';
+WHERE usuario.Nombre = '%Juan Garcia Gomez%';
 
 
 \echo 'Consulta 5: Mostrar los discos publicados entre 1970 y 1972 junto con sus ediciones ordenados por el anno de publicacion'
@@ -346,11 +372,29 @@ ORDER BY discos.Anno_publicacion;
 
 \echo 'Consulta 6: . Listar el nombre de todos los grupos que han publicado discos del género ‘Electronic’.'
 
-
+SELECT DISTINCT grupos.Nombre
+FROM bbdd.discos
+JOIN bbdd.edita ON discos.Nombre = edita.Nombre_discos AND discos.Anno_publicacion = edita.Anno_disco
+JOIN bbdd.grupos ON edita.Nombre_grupo = grupos.Nombre
+WHERE EXISTS (
+    SELECT 1
+    FROM temporal.discos temp_discos
+    WHERE temp_discos.Nombre = discos.Nombre
+      AND temp_discos.Anno_publicacion::INT = discos.Anno_publicacion
+      AND temp_discos.Generos LIKE '%Electronic%'
+);
 
 
 \echo 'Consulta 7: Lista de discos con la duración total del mismo, editados antes del año 2000.'
 
+SELECT 
+    discos.Nombre AS Nombre_disco, 
+    discos.Anno_publicacion AS Anno_disco, 
+    SUM(EXTRACT(EPOCH FROM TO_TIMESTAMP(canciones.Duracion, 'MI:SS'))) AS Duracion_total_segundos
+FROM bbdd.discos
+JOIN bbdd.canciones ON discos.Nombre = canciones.Nombre_discos AND discos.Anno_publicacion = canciones.Anno_disco
+WHERE discos.Anno_publicacion < 2000
+GROUP BY discos.Nombre, discos.Anno_publicacion;
 
 
 

@@ -1,0 +1,1526 @@
+SET
+BEGIN
+CREATE SCHEMA
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+COPY 966
+COPY 20
+COPY 7537
+COPY 2449
+COPY 206
+COPY 362
+CREATE SCHEMA
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 965
+INSERT 0 932
+INSERT 0 20
+INSERT 0 7209
+INSERT 0 1029
+INSERT 0 965
+INSERT 0 370
+INSERT 0 162
+                                    nombre_discos                                     | anno_disco 
+--------------------------------------------------------------------------------------+------------
+ The Quintessential Billie Holiday, Volume IV, 1937                                   |       1988
+ Party Hats                                                                           |       2007
+ Backspace Unwind                                                                     |       2014
+ My Time / Talkin' To Me / All I Wanna Know                                           |       1984
+ Bury Me At Sea                                                                       |       2008
+ Hurry Sundown                                                                        |       1977
+ Άσε Με Φίλε Να Μεθύσω                                                                |       1996
+ All That We Let In                                                                   |       2004
+ Il Faudrait Leur Dire...                                                             |       1999
+ Different Times - Lou Reed In The 70s                                                |       1996
+ Romeo And Juliet                                                                     |       1978
+ L'Arc-en-Ciel Live 2014 At 国立競技場                                                |       2014
+ Heathers - Original Motion Picture Soundtrack                                        |       1989
+ Calcutta!                                                                            |       1961
+ Od Neba Do Neba                                                                      |       2003
+ Dizzy Heights                                                                        |       2014
+ Dirk Wears White Sox                                                                 |       2014
+ Η Καρδιά Με Πηγαίνει Εμένα                                                           |       2013
+ 盡在不言中                                                                           |       1993
+ And That's A Fact With My Hand Up!                                                   |       1971
+ Поет Петр Лещенко                                                                    |       1989
+ Miguel Bosé                                                                          |       2022
+ American Classics For Loving And Dancing Pleasure                                    |       1974
+ Wings Of Change                                                                      |       1979
+ Live It Out                                                                          |       2006
+ The Lone Descent                                                                     |       2011
+ Neon Music                                                                           |       2017
+ Nonostante Tutto                                                                     |       2018
+ I Am A Photograph                                                                    |       1977
+ Power Punch!!!                                                                       |       2013
+ Лунная Рапсодия                                                                      |       1984
+ Full Circle                                                                          |       2003
+ Ανέκδοτα Τραγούδια Στις 33 Στροφές Νο3                                               |       1990
+ Odz Manouk                                                                           |       2013
+ Space Night Vol. VIII                                                                |       2002
+ Fuk Dat                                                                              |       1993
+ All I Can Do                                                                         |       1979
+ Ejaculate Upon The Holy Qur'an                                                       |       2008
+ Rock Of Ages                                                                         |       1983
+ Tokyo Cries                                                                          |       2022
+ I Ain't Yer House-Nigger                                                             |       1997
+ Ma Liberté                                                                           |       1972
+ In The Wake Of The Dark Earth                                                        |       2015
+ Alibi                                                                                |       1985
+ The Emigrants                                                                        |       1998
+ Of Myths And Legends                                                                 |       1975
+ Disque D'or De Julien Clerc                                                          |       1977
+ Des Je T'aime                                                                        |       2012
+ Public Foot The Roman                                                                |       1973
+ Just Because I'm A Woman                                                             |       2023
+ Savoir Aimer                                                                         |       1997
+ The Power Of Shower                                                                  |       2007
+ Imelda May Live @ 12 Bar Club                                                        |       2010
+ Dear Independence                                                                    |       1964
+ Toivon                                                                               |       1994
+ Mildt Sagt                                                                           |       2003
+ The Rules Of Dada                                                                    |       2012
+ A New Dope                                                                           |       1980
+ Mais... C'est Pas Dieu Possible !!!!!                                                |       2009
+ Pachanga Cha - Cha - Cha Anyone?                                                     |       1965
+ Soul On Board                                                                        |       2009
+ Works (1968 - 2005)                                                                  |       2006
+ Her River Raves Recollections                                                        |       2009
+ Lipan's Kinetic                                                                      |       2015
+ Vandaag Of Morgen                                                                    |       2004
+ In Montreal                                                                          |       1995
+ Classics In Jazz                                                                     |       1952
+ Herbal Healing                                                                       |       2012
+ Be A Man                                                                             |       1982
+ Les Merveilleux Avantages De La Stéréophonie                                         |       2002
+ The Curse                                                                            |       1986
+ The Need To Fly                                                                      |       1983
+ Golden Sounds                                                                        |       1968
+ Deaf Wish                                                                            |       2011
+ Φωτιά Στα Σαββατόβραδα (1982 - 1992: Δέκα Χρόνια Τραγούδι)                           |       1992
+ II                                                                                   |       2015
+ Ich Fühl Mich Wohl In Deinem Leben                                                   |       1989
+ Προδομένος Λαός                                                                      |       2005
+ Deratizer                                                                            |       2012
+ Die Neun Sinfonien                                                                   |          0
+ Krakakot                                                                             |       2000
+ Im 3/4 Takt                                                                          |       2006
+ Time Trouble And Money (Live At The 100 Club)                                        |       2000
+ Сторона От                                                                           |       1998
+ Spundae Presents Interpretations II                                                  |       2001
+ Keel                                                                                 |       1987
+ Blues Expert (Disc De Ascultare Și De Înveselire)                                    |          0
+ Plays Solo Piano                                                                     |          0
+ Amazing Grace                                                                        |       2003
+ Governor                                                                             |       2002
+ Mixed Roots                                                                          |       1996
+ Remix 12'                                                                            |       1986
+ In A Mirror Darkly                                                                   |       2014
+ Adult Crash                                                                          |       1994
+ I Love To Dance                                                                      |       1976
+ More Out Of Today                                                                    |       1995
+ Closer                                                                               |       2020
+ Пушка                                                                                |       1993
+ Reverence                                                                            |       1992
+ 12 Supersuccessi                                                                     |       1996
+ For The Rest Of Us                                                                   |       2010
+ ¡Ay, Caridad!                                                                        |       1976
+ Legends Of Rock, Vol. 2, Rare Items                                                  |       1974
+ The 50th Anniversary Collection                                                      |       2012
+ Psichedelica                                                                         |       1968
+ The Very Best Of Johnnie Taylor                                                      |       2007
+ Planet Jive                                                                          |       2003
+ Kad Bi' Bio Bijelo Dugme                                                             |       1974
+ Wake Up                                                                              |       1985
+ Live! In The Air Age                                                                 |       1977
+ Nightfall                                                                            |       2002
+ Holst: The Planets, Op. 32                                                           |       1980
+ The Outsider                                                                         |       2006
+ Brivido Caldo                                                                        |       2000
+ Years Not Living                                                                     |       1988
+ Suomi 50 - Runoja Ja Lauluja                                                         |       1969
+ You Give Jews A Bad Name                                                             |       1994
+ It's A Man's World                                                                   |       1966
+ L'Invitation                                                                         |       1981
+ Znaeš Kolku Vredam                                                                   |       2003
+ Quand On N'a Que L'amour                                                             |       1996
+ Chinatown                                                                            |       1980
+ The Polka Dot Bear - The Story Of Creation                                           |          0
+ Definitive Perception                                                                |       2017
+ Get Lucky                                                                            |       1981
+ Wildberry Shake!                                                                     |       2005
+ A. Decap - Sound Non-Stop Dancing Volume 7                                           |          0
+ Shlap                                                                                |       2004
+ As Slow As Apocalypse                                                                |       2010
+ Behind The Magnolia Curtain / Blow Your Top                                          |       1987
+ Not Trendy                                                                           |       2013
+ In Scarlet And Vile                                                                  |       2004
+ Consuming The Rests                                                                  |       2010
+ In A Word: Yes (1969 -    )                                                          |       2008
+ Demo 2009                                                                            |       2012
+ The Japan Syndrome                                                                   |       1997
+ Королева Зимы                                                                        |       2008
+ 50 Gates                                                                             |       2022
+ Way To Normal                                                                        |       2008
+ Bolomakoté                                                                           |       1992
+ The Original Rudolph The Red-Nosed Reindeer And Other Children's Christmas Favorites |       1964
+ El Duende En Madrid                                                                  |       1997
+ I'm That Type Of Girl                                                                |       2003
+ Sleep                                                                                |       2024
+ Zondag In 't Zuiden                                                                  |       1995
+ Live At The Cimarron Ballroom                                                        |       1997
+ Revelations And The Blues                                                            |       2005
+ 1000 Sünden...                                                                       |          0
+ Howard Carpendale - Die LP Zur Tournee                                               |       1978
+ Unforgettable / Pretend                                                              |          0
+ Η Αγάπη Θα Λάμψει                                                                    |       2012
+ The Best Of The EMI Years                                                            |          0
+ Blackbird                                                                            |       2013
+ Professional Dreamer                                                                 |       2011
+ Music From The Godfather                                                             |       1972
+ Eden's Fire                                                                          |       1984
+ Worst Case Scenario                                                                  |       1996
+ Through The Blinds                                                                   |       2022
+ Buddy Odor Is A Gas!                                                                 |       1979
+ I Can't Let Go Of Your Love                                                          |       1970
+ Teil 1                                                                               |       1989
+ The Rhythm                                                                           |       1991
+ Stand Up Straight                                                                    |       1998
+ Let It Loose                                                                         |       1989
+ Myst III: Exile (The Soundtrack)                                                     |       2004
+ Mr. Dabada                                                                           |       2002
+ The Nearness Of You                                                                  |       1974
+ Jazz... Has... A Sense Of Humor                                                      |       1999
+ Lonesome Love                                                                        |       1964
+ Rapid Transit                                                                        |       1983
+ Hapuslah Airmata Mu                                                                  |       1976
+ Mayfield: Remixed (The Curtis Mayfield Collection)                                   |       2004
+ Zoopsia                                                                              |       1989
+ Ley De Vida                                                                          |       2008
+ Bigger Than Jesus                                                                    |       1989
+ Trav'lin' Light                                                                      |       1959
+ Heterogenial                                                                         |       1994
+ Street Sense                                                                         |       1979
+ Our Blue Side                                                                        |       1965
+ 1533 St. Philip Street                                                               |       2017
+ Black 'N Dangerous                                                                   |       1996
+ Heaven Knows                                                                         |       1978
+ Голос И Ночь (I)                                                                     |       1990
+ Von Allen Gedanken Schätze Ich Doch Am Meisten Die Interessanten                     |       1997
+ Beggars' Hill                                                                        |       2010
+ 7th Symphony                                                                         |       2010
+ Seeing And Doing.                                                                    |       2005
+ Alive Again                                                                          |       2003
+ Hear My Train A' Comin                                                               |       2012
+ Comboio                                                                              |          0
+ A Conspiracy                                                                         |       1999
+ 13 The Hard Way                                                                      |       2014
+ Candlelight                                                                          |       2020
+ Chants D'Auvergne Vol. 1 • Folge 1                                                   |       1983
+ Chamber Music For Flute (Complete)                                                   |          0
+ A Charlie Brown Christmas                                                            |       1965
+ The Fire Below                                                                       |       2003
+ Water                                                                                |       1970
+ Cleanhead Blues                                                                      |       1996
+ In Concert - Tel Aviv and Jerusalem - 1969                                           |       2012
+ The Phoenix                                                                          |       1979
+ Mundus Subterraneus                                                                  |       2020
+ Levande På G                                                                         |       2014
+ Ancient History                                                                      |       2012
+ Spiritual Gospel                                                                     |       1966
+ Ex-Cult                                                                              |       2012
+ Annihilation                                                                         |       2002
+ The Way                                                                              |       2002
+ Reunion                                                                              |       1998
+ Phaedra • Lachrymae • The Sword In The Stone • Night Mail • Sinfonietta              |       1996
+ Femmina                                                                              |       1977
+ The Other Side                                                                       |       2018
+ Live At The Pickwick!                                                                |       1998
+ Saturday Night / Sunday Night At The Blackhawk, San Francisco                        |       1962
+ Your Body Is An Outlaw                                                               |       1980
+ Too Much                                                                             |       1998
+ From Russia With Love (Original Motion Picture Soundtrack)                           |          0
+ Mantovani Encores                                                                    |       1957
+ Spiral Staircase                                                                     |       1973
+ Breakout                                                                             |       1986
+ If Ever I Would Leave You                                                            |       1998
+ Taste Of The Young Heart                                                             |       1979
+ The Way It Is                                                                        |       1986
+ Volume Two: Solo Acoustic Guitar                                                     |       1997
+ Kick Ass !!                                                                          |       2009
+ Whoop 'Em Up Cindy                                                                   |       1926
+ Bluegrass Hootenanny                                                                 |       1964
+ The Golden Orpheus Festival 84                                                       |       1984
+ Four Chapters Of Satanic Evil                                                        |       2010
+ Spirits Having Flown                                                                 |       1979
+ Johnny B. Goode                                                                      |       1983
+ Falscher Hase                                                                        |       1989
+ Guerra Civil                                                                         |       2000
+ Talkin' About My Time                                                                |       1968
+ Rhoda Dakar Sings The Bodysnatchers                                                  |       2015
+ This Time Tomorrow                                                                   |       2001
+ Birds Fly South                                                                      |       2002
+ Suavemente                                                                           |       1998
+ Take Cover                                                                           |       1995
+ Rubbin' Me The Right Way                                                             |       1989
+ If You're Into It, I'm Out Of It                                                     |       2018
+ Symphonies 1&8                                                                       |       1976
+ One By One                                                                           |       1992
+ Pavarotti & Friends For The Children Of Liberia                                      |       1998
+ Help!  (7 Song Radio Sampler)                                                        |       2008
+ Melodies Japonaises Pour Flute Et Harpe                                              |       1978
+ New Solos By An Old Master                                                           |       1956
+ Tainted Angel                                                                        |       2022
+ Rafiki (Remixes)                                                                     |       2002
+ The Time Machine Tour                                                                |       2008
+ It Happened One Bite                                                                 |       1978
+ Istra Ti Materina: Part 1                                                            |       1995
+ De Dragul Tău                                                                        |       1988
+ Pershing                                                                             |       2008
+ Shine                                                                                |       2007
+ La Fete A Manu                                                                       |       1989
+ Waves                                                                                |       1988
+ Mariposa                                                                             |       1992
+ Meleg Az Éjszaka                                                                     |       1981
+ 77 One More Time Volume ll                                                           |       2014
+ Paris Winter Spring                                                                  |       2014
+ You Send Me                                                                          |       1957
+ Dalla Pace Del Mare Lontano                                                          |       2003
+ Attack                                                                               |       1992
+ Eden's Island (The Music Of An Enchanted Isle)                                       |       1960
+ 10 Years - Live In Iruña                                                             |       2014
+ The Music Of The Grand Canyon                                                        |       1995
+ Can't Get Enough                                                                     |       1974
+ Early Strawbs                                                                        |       1974
+ Trials & Errors                                                                      |       2022
+ The Coming Atlantis                                                                  |       1969
+ The Chess Box                                                                        |       2013
+ Astrology For Young Lovers                                                           |          0
+ I'd Like To Teach The World To Sing                                                  |       1996
+ The Hague '76                                                                        |       2010
+ Departures                                                                           |       2014
+ Campfire Stories                                                                     |       2007
+ Impact                                                                               |       1996
+ Roolettes                                                                            |       2003
+ In Soviet Russia, My Heart Breaks You                                                |       2011
+ Charlie Rich Sings Country & Western                                                 |       1967
+ South Pacific                                                                        |       1962
+ Golpes Tocuyanos                                                                     |          0
+ Scheherazade / Capriccio Espagnol / Flight Of The Bumblebee                          |          0
+ Disko Partizani                                                                      |       2007
+ Elaine Sings Wilder                                                                  |       1992
+ Goldfinger (Original Motion Picture Score)                                           |       1987
+ Cult Of Fear                                                                         |       2011
+ Sings The Songs Of Dallas Frazier                                                    |       1968
+ Cradle Of Life                                                                       |       2003
+ Google Me                                                                            |       1965
+ Starlight                                                                            |       1983
+ Milk Inc.                                                                            |       2002
+ Darker Circles                                                                       |       2010
+ In The Realm Of Asgærd                                                               |       2010
+ Hardcore Adrenaline                                                                  |       2007
+ Under The Arch                                                                       |       1972
+ Best Of Me                                                                           |       1972
+ Love Me Crazy                                                                        |       1992
+ Control Agents                                                                       |       2018
+ Faron Young Sings Occasional Wife & If I Ever Fall In Love With A Honky Tonk Girl    |       1970
+ 4                                                                                    |       1981
+ 6 Track E.P.                                                                         |       1988
+ Hate Unit                                                                            |       2004
+ Blue Waters                                                                          |       1993
+ House Shoes & Street Corner Music Present: The Gift Vol. 5!                          |       2015
+ Fabrizio De André                                                                    |       1975
+ Το Τραγούδι Του Νεκρού Αδελφού - Λιποτάκτες                                          |       2003
+ Leben Ist                                                                            |       1991
+ Dahmer / Denak                                                                       |       2021
+ For Pete's Sake                                                                      |       2006
+ Mega                                                                                 |       2002
+ Laid Insignificant                                                                   |       1999
+ Kootch                                                                               |       1973
+ Frozen Chambers                                                                      |       2008
+ Live II                                                                              |       2015
+ Colours And Lines                                                                    |       2007
+ Hot! Hot!                                                                            |       1978
+ A New High Fidelity Tripout                                                          |       2008
+ Live Across Australia                                                                |       1987
+ Time II                                                                              |       2024
+ Blues With Big Bill Broonzy · Sonny Terry · Brownie McGhee                           |       1965
+ The Inner Galactic Fusion Experience                                                 |       1996
+ Rivers Of Suggestion                                                                 |       2013
+ Crayon                                                                               |       1994
+ Axis Mundi                                                                           |       2017
+ Aggressor                                                                            |       2003
+ The Golden Hits Of                                                                   |       1964
+ Recuerdo De Amor                                                                     |          0
+ Zwischen Weitergehen Und Untergehen                                                  |       2014
+ Pale                                                                                 |       2014
+ In Freundschaft · Traum-Formel · Amour                                               |       1993
+ Love Come Down: The Best Of Evelyn Champagne King                                    |       1993
+ Matthew Fisher                                                                       |       1980
+ Theodorakis Dirige Theodorakis, Vol 2                                                |       1972
+ Home                                                                                 |       1972
+ Layering Errors LP                                                                   |       2013
+ Jag Offs / Four Letter Words Split                                                   |       2010
+ (Void)                                                                               |       1995
+ Make Way For The Ocean Floor To Fall To The Surface                                  |       1990
+ Turakaisten Paratiisi                                                                |       1988
+ The Abyss                                                                            |       1990
+ Αμύνομαι                                                                             |       2024
+ Ξανθιά Γυναίκα                                                                       |       1990
+ Gracefully Chasing The Tail                                                          |       1991
+ 20 Years: The Best of Jacob Moon                                                     |       2015
+ ...Verendeten Blickes                                                                |       2005
+ I Am A Dope Fiend                                                                    |       1992
+ Pacheco Y Su Charanga                                                                |       1961
+ Sweatin' To The Oldies: The Vandals Live                                             |       1999
+ Here We Go Again                                                                     |       1959
+ Samba Demais                                                                         |       2018
+ Hver Dag Er En Perfekt Dag                                                           |       1992
+ Pourcel Digital                                                                      |       1983
+ Penguins On The Moon                                                                 |       1986
+ Music And Gibran (A Contemporary Interpretation)                                     |          0
+ Crashed Out, Wasted Useless, Hated                                                   |       2000
+ Cultivateur, Maître-Chantre                                                          |       2009
+ Pesadillas                                                                           |       1992
+ Strawberry Music Sampler No.1                                                        |       2001
+ Glean                                                                                |       2004
+ Sange Fra Kælderen                                                                   |       1979
+ Volume - The Best Of                                                                 |       1981
+ Народни Бисери                                                                       |       1987
+ Tant Pis Pour Eux !                                                                  |       2013
+ В Танцевальных Ритмах                                                                |       1983
+ Koncert                                                                              |       1987
+ Category 6                                                                           |       1998
+ The BBC Tapes - Volume IV - In Concert 1975                                          |       1997
+ The Alan Davie Music Workshop 005                                                    |       2003
+ Resurrection                                                                         |       1995
+ Filled In                                                                            |       2000
+ Roger                                                                                |       1987
+ Heilt Nye Vei                                                                        |       2012
+ Putrescent Infectious Rabidity                                                       |       2018
+ Szerencsejáték                                                                       |       1982
+ Είμαι Το Σήμερα Κι Είσαι Το Χθες                                                     |       2019
+ Komsomol Scouts Space                                                                |       2013
+ Robots E.P.                                                                          |       2017
+ La Torre Di Babele                                                                   |       1976
+ I Am Kloot                                                                           |       2003
+ Pisces, Aquarius, Capricorn & Jones Ltd.                                             |       1967
+ Introducing Danny Johnson                                                            |       1978
+ The Friends Of Mr. Cairo                                                             |       1981
+ A Romantic Dream                                                                     |       2022
+ Heidenlarm                                                                           |       2008
+ The Pagan Cinema                                                                     |       2012
+ Glen Campbell Presents                                                               |       1969
+ Feels So Good                                                                        |       1977
+ Hokey Pokey                                                                          |       2004
+ The Awakening                                                                        |       1999
+ Babylon By Bus                                                                       |       1978
+ Big Picture                                                                          |       2000
+ Paranoia Picknick                                                                    |       2004
+ Owl Hours                                                                            |       2022
+ Northward                                                                            |       2018
+ The World Of Donovan                                                                 |       1972
+ Live At The Roxy Club                                                                |       1989
+ Caribbean Dandee                                                                     |       2015
+ VI                                                                                   |       2015
+ Arno En Concert (A La Française)                                                     |       2000
+ Loz Netto's Bzar                                                                     |       1982
+ Express Way                                                                          |       2004
+ Summary Execution                                                                    |       2019
+ Goodnight Cleveland                                                                  |       2003
+ Stranger Songs                                                                       |       2014
+ Concert In Japan                                                                     |       1977
+ The Town Where a Star Falls                                                          |       2015
+ Absurd Reality / Flagging Water                                                      |       2014
+ Ominous Black                                                                        |       2020
+ En Todo Estaré                                                                       |       2014
+ Spy.der Mix                                                                          |          0
+ Raumpatrouille Orion                                                                 |       1992
+ Little Flecks Of Foam Around Barking                                                 |       1989
+ Iter                                                                                 |       1986
+ Хроника Парнишки С Гомельских Улиц                                                   |       2008
+ Light Years: The Very Best Of Electric Light Orchestra                               |       1997
+ Dreams On Long Play                                                                  |       1995
+ Evil Game                                                                            |       1985
+ Én Megálmodtalak                                                                     |       1977
+ Passion Selon Saint Marc = Markuspassion BWV 247                                     |          0
+ Under The Pavement - The Beach                                                       |       2009
+ Raw Nerves                                                                           |       2012
+ Doomsday Hour                                                                        |       2008
+ Modern Pop Percussion (L'Oiseau Sans Pieds)                                          |          0
+ Mestrud                                                                              |       1975
+ Eye For An Eye                                                                       |       2016
+ Album                                                                                |       2014
+ Alma Tädin Illuusio                                                                  |       1983
+ G.C. Cameron                                                                         |       1976
+ Twilight Of Legends                                                                  |       2007
+ Fish Tales / Swarthy Songs For Swabs                                                 |       1991
+ Lifetime Woman                                                                       |       1988
+ Los Rebeldes Del Rock                                                                |       1971
+ Personennahverkehr                                                                   |       2020
+ I'm Not So Lucky (Showcase)                                                          |       1980
+ It Found A Voice...                                                                  |       1974
+ Endnote                                                                              |       2002
+ Quelques Notes Pour Anna                                                             |       1981
+ Klavierspielereien                                                                   |          0
+ No Pressure                                                                          |       2020
+ Texas Sugar / Strat Magik                                                            |       1994
+ Subterranean Hitz Vol. I                                                             |       1997
+ New Wild Everywhere                                                                  |       2012
+ Lost Souls                                                                           |       2000
+ Abyssal                                                                              |       2019
+ Live!                                                                                |       1975
+ Death Suits You                                                                      |       2013
+ Flying Dreams                                                                        |       1978
+ Oxygene (The Complete Oxygene)                                                       |       1997
+ Cypher                                                                               |       1996
+ Back To The Drawing Room                                                             |       2015
+ Kenton In Hi Fi                                                                      |       1956
+ For Mama                                                                             |       1969
+ Cantos De Venezuela                                                                  |       1975
+ Disco Pirata                                                                         |       2016
+ Renewable Destination                                                                |       2013
+ Summer Breeze                                                                        |       1983
+ Ensemble Folklorique Timișul                                                         |          0
+ The King Tito Puente / El Rey Tito Puente                                            |          0
+ The Eternal Quest                                                                    |          0
+ Starring In...Standing In A Monkey Sea                                               |       1990
+ The Pale Haunt Departure                                                             |       2005
+ Mental Blocks For All Ages                                                           |       1991
+ Lady                                                                                 |       1984
+ Words, Music, Laughter And Tears                                                     |       1968
+ June 22 2008 - Washington, DC                                                        |       2018
+ Вања Радоњић                                                                         |       2000
+ Funky Chicken                                                                        |       1970
+ The Essential Billie Holiday (Carnegie Hall Concert Recorded Live)                   |          0
+ -In-A-Gadda-Da-Vida                                                                  |       1969
+ I Wish My Life Was Based On A True Story                                             |       2013
+ Rock Party/Smoke On The Water                                                        |       1987
+ Slaughterhouse Invitation                                                            |       1989
+ Herederos De Un Imperio                                                              |       2011
+ Ultraviolence                                                                        |       2023
+ Magic Lady                                                                           |       1988
+ Brown Flag                                                                           |       2011
+ Il Mondo Dei Giovani Vol. 1                                                          |       1999
+ Still At Arms Length                                                                 |       2002
+ Bitter Isolation                                                                     |       2008
+ Rockfish Crossing                                                                    |       1972
+ Burst                                                                                |       1988
+ Discovered Again!                                                                    |          0
+ Brujerizmo                                                                           |       2000
+ Vitusti Kuolemaa...                                                                  |       2012
+ Everybody Dance With Your Steering Wheel                                             |       2002
+ The Notorious Cherry Bombs                                                           |       2004
+ Cazwell And Amanda                                                                   |       2010
+(489 rows)
+
+ nombre_discos | pais | anno_edicion 
+---------------+------+--------------
+(0 rows)
+
+ nombre_disco | anno_publicacion | duracion_total_segundos 
+--------------+------------------+-------------------------
+ Party Hats   |             2007 |                        
+(1 row)
+
+ nombre 
+--------
+(0 rows)
+
+                                      nombre                                       | anno_publicacion | formato | anno_edicion |     pais     
+-----------------------------------------------------------------------------------+------------------+---------+--------------+--------------
+ Home To You                                                                       |             1970 | CD      |         2006 | Europe
+ Funky Chicken                                                                     |             1970 | Vinyl   |         1970 | US
+ Gold                                                                              |             1970 | Vinyl   |         1997 | UK
+ The Next Time I'm In Town                                                         |             1970 | Vinyl   |         1991 | Europe
+ The Next Time I'm In Town                                                         |             1970 | Vinyl   |         1991 | Norway
+ The Next Time I'm In Town                                                         |             1970 | Vinyl   |         1991 | Spain
+ Faron Young Sings Occasional Wife & If I Ever Fall In Love With A Honky Tonk Girl |             1970 | Vinyl   |         1970 | Canada
+ Rock And Roll Madonna                                                             |             1970 | Vinyl   |         1970 | Belgium
+ Home To You                                                                       |             1970 | CD      |         1999 | US
+ Rock And Roll Madonna                                                             |             1970 | Vinyl   |         1970 | UK
+ I Can't Let Go Of Your Love                                                       |             1970 | Vinyl   |         1970 | Australia
+ Funky Chicken                                                                     |             1970 | Vinyl   |         2023 | USA & Canada
+ Old Fashioned Feeling                                                             |             1970 | Vinyl   |         1970 | Japan
+ Obećanje / Klik-Klak                                                              |             1971 | Vinyl   |         1971 | Yugoslavia
+ Try A Little Tenderness / She Put The Hurt On Me                                  |             1971 | Vinyl   |         1967 | France
+ Los Rebeldes Del Rock                                                             |             1971 | Vinyl   |         1971 | Mexico
+ Try A Little Tenderness / She Put The Hurt On Me                                  |             1971 | Vinyl   |         1971 | France
+ Los Rebeldes Del Rock                                                             |             1971 | Vinyl   |         1960 | Mexico
+ Blue Moon Of Kentucky                                                             |             1971 | Shellac |         1954 | US
+ Theodorakis Dirige Theodorakis, Vol 2                                             |             1972 | Vinyl   |         1972 | Germany
+ Will The Circe Be Unbroken                                                        |             1972 | Vinyl   |         1972 | Jamaica
+ Best Of Me                                                                        |             1972 | CD      |         1999 | Europe
+ Music From The Godfather                                                          |             1972 | Vinyl   |         1972 | France
+ Otello Highlights                                                                 |             1972 | Vinyl   |         1961 | UK
+ Music From The Godfather                                                          |             1972 | Vinyl   |         1972 | UK
+ Rockfish Crossing                                                                 |             1972 | Vinyl   |         1972 | Canada
+(26 rows)
+
+                    nombre                    
+----------------------------------------------
+  Bo Bellow
+ ...And Oceans
+ 23 Skidoo
+ 3 Chairs
+ 4 II Soul
+ 4D
+ AC Slater
+ Advisory
+ Africans With Mainframes
+ Afrotrance
+ Akustik Research
+ Alden Tyrell
+ Alex Albrecht
+ Alex Calver
+ Alexander Goldscheider
+ Alexander ONeal
+ Alexi Delano
+ Altered Images
+ Ame Lorain
+ Andrew McLauchlan
+ Angel Moraes
+ Angie Care
+ Antti Tuisku
+ Aqualung
+ Aquilia
+ Audio Maze
+ Aural Float
+ Avalanche (8)
+ Beastellabeast
+ BeBe Winans
+ Ben Sims
+ Benassi Bros.
+ Beta 2 & Zero Tolerance
+ Biosphere
+ Bit-Tuner
+ Black Countess
+ Blair French
+ Blank Banshee
+ Blue Maxx
+ Boards Of Canada
+ Bong-Ra
+ Brian Eno
+ Brighter Death Now
+ Brina (3)
+ Broadcast
+ C.O.D.
+ Caboladies
+ Captain Hollywood
+ Captain Sensible
+ Car Bomb
+ Carl Craig
+ Carlos Jean
+ Carola Pisaturo
+ Cass Cutbush
+ Cazwell And Amanda Lepore
+ Chemical Frequency
+ Cher
+ Chow Chow
+ Chris Energy
+ Christ.
+ Christoph De Babalon
+ Christos Lainas
+ Citizen Kain
+ Colin Potter
+ Crown Heights Affair
+ Crystal Clear (2)
+ Curtis Mayfield
+ D.H.S.S.
+ Da Rock
+ Dada Life
+ Daniel Lui
+ Dard Å Ranj Från Det Hebbershålska Samfundet
+ Daryl Hall & John Oates
+ Depeche Mode
+ Desired State
+ Die Form
+ Dieter Zobel
+ Dinky
+ Dirty Bee
+ Discolazer
+ DJ Cornelius
+ DJ Hazard
+ DJ Shadow
+ DJ Spy.der
+ Doctor Rockit
+ Donkey
+ Donna Summer
+ Dr. Manhattan
+ Drumsound & Simon Bassline Smith
+ Duane & Co.
+ El Hombre Trajeado
+ Eleanore Mills
+ Elementz Of Noize
+ Enjoy (6)
+ Eric Prydz
+ Evelyn King
+ Factor Xs
+ Faithless
+ Familjen
+ Fantasy UFO
+ Fastgraph
+ Fat Freddys Drop
+ Fee Romero
+ Ferry Corsten
+ Figures In Distortion
+ Foot and Mouth Disease
+ Frank Eddie (2)
+ Frankie Goes To Hollywood
+ Gabrielle (8)
+ Garbage
+ Gat Decor
+ Geomatic
+ George Aaron
+ Georgia Kelly
+ Glamor Cult
+ Glenn Morrison
+ Goldfrapp
+ Grace Jones
+ Green & Waters
+ Hans-Joachim Roedelius
+ Hazel-OConnor
+ Helen Schneider
+ Hokus Pokus
+ Holger Czukay
+ Hum (8)
+ Ian Van Dahl
+ Ionic Vision
+ Jack Wall
+ Jamie Jones (2)
+ Jamie XX
+ Jay Lumen
+ JB
+ Jean-Michel Jarre
+ Jellybabe
+ Johannes Heil
+ Jon & Vangelis
+ Jonestown
+ Jonny Chingas
+ Jouem
+ Judit Szűcs
+ K-Psula
+ K. Barré
+ Kate Carr
+ Katrina And The Waves
+ Kick-OH!
+ Kim Wilde
+ Klax-On
+ Kyle Emerson
+ Lamb
+ LÂme Immortelle
+ Larry Gus
+ Latidos
+ Le Tigre
+ Lee Jones
+ Leslie Vaughn
+ Lightwave
+ Loefah
+ Loren X
+ Los Bonitos
+ Lou & The Hollywood Bananas
+ Loz Nettos Bzar
+ Lucky & Easy
+ Magic Fly
+ Magica
+ Mai Tai
+ Malo Macht Musik.
+ Manu Dibango
+ Marcella Bella
+ Marilyn Manson
+ Mark Hawkins
+ Mark Richardson
+ Marshall Jefferson
+ Mary Wilson
+ Maxim
+ Melted Cassettes
+ Mental Power
+ Michael Jackson
+ Mijangos
+ Milan Knížák
+ Milk Inc.
+ Millie Jackson
+ Mirage (12)
+ Model 500
+ Mondglanz
+ Moonbase
+ Morenas
+ Mr. Fingers
+ Mr. Tophat
+ Mylo
+ Nalin & Kane
+ Nemesi
+ Nena (20)
+ Neoton Família
+ Neu!
+ New Goblin
+ Nicholas Gunn
+ Nicole Russo
+ Nikola Parov
+ No Assembly Required
+ Nova deViator
+ NYs Finest
+ Onkunde
+ Orfanado
+ Owiny Sigoma Band
+ Parasense
+ Paul Blackout
+ Peter Thomas Sound Orchestra
+ Philip Corner
+ Phill & Company
+ Piero Umiliani
+ Pimentola
+ PinkPantheress
+ Project X
+ Psychopoint
+ Pyramids
+ Quarion
+ Relic (32)
+ Revolting Cocks
+ Rhythm & Sound
+ RLP
+ RMS
+ Robert Babicz
+ Roger Troutman
+ S.P.Y. & Total Science
+ Sade
+ Safire
+ Sagat
+ Samoa Park
+ Scorn
+ Scorpyo
+ Scott Grooves
+ Scotti Deep
+ SE62
+ Seduction
+ Shantel
+ Shine (20)
+ Sigma Fay
+ Silent Witness
+ Simon
+ Sinéad OConnor
+ Skeletons (2)
+ Skydiver (2)
+ SL2
+ Smith & Mighty
+ Smyglyssna
+ Soul II Soul
+ Space
+ Spectrasoul
+ Spirit
+ Stanislav Tolkachev
+ Stardelay
+ Starr Crew
+ Stefan Gubatz
+ Stephen Brown
+ Stephen Mallinder
+ Steve Poindexter
+ Stu Allan
+ Studio 1
+ Stylóo
+ Stylophonic
+ Sub-Stance
+ Sublevel
+ Sulfurex
+ Summerbreeze
+ Sungod
+ Swirl People
+ T.O.U.
+ T.Power
+ Taana Gardner
+ Tank Of Danzig
+ Taylor Dayne
+ Teebee
+ The Assembly
+ The Boyz Dem From Booby Trap
+ The Buddy Odor Stop
+ The Castle
+ The Echoing Green
+ The Fall
+ The Ganja Kru
+ The Hacker
+ The Ill Saint
+ The Intelligent Jungalist
+ The Lady Supreme
+ The Operator (2)
+ The Opposites
+ The Prodigy
+ The Product (6)
+ The Rave Doctor
+ The Salsoul Orchestra
+ The Winterbabies
+ The Wolfgang Press
+ Theo Parrish
+ Thievery Corporation
+ Third Head
+ Tieum
+ Tigerskin
+ Tileface
+ Tina Moore
+ Tomaz vs. Filterheadz
+ Tony Thomas
+ Total Science
+ Troublemakers
+ Tuff Sherm
+ UKO
+ Ultra-Takkyu vs. Mijk-o-zilla
+ Underground Movement (2)
+ UnderNova
+ Upper Astral
+ Victor Calderone
+ Vince Watson
+ Voyce
+ Wagon Christ
+ Wally Badarou
+ Was (Not Was)
+ Watergate
+ WaWuWe
+ Wham
+ White & Torch
+ Who Is Behind The Mask?
+ Wildchild
+ Wildside
+ Wizzard Of Wax
+ X-Form (2)
+ X Stress
+ ZEV
+(325 rows)
+
+                                                        nombre_disco                                                        | anno_disco | duracion_total_segundos 
+----------------------------------------------------------------------------------------------------------------------------+------------+-------------------------
+ Johnny B. Goode                                                                                                            |       1983 |    -497337756813.000000
+ Falscher Hase                                                                                                              |       1989 |                        
+ In Concert                                                                                                                 |       1979 |     -62167218669.000000
+ The Quintessential Billie Holiday, Volume IV, 1937                                                                         |       1988 |    -994675513310.000000
+ Talkin' About My Time                                                                                                      |       1968 |                        
+ In Space                                                                                                                   |       1969 |    -124334439097.000000
+ Sunshine                                                                                                                   |       1973 |    -124334438634.000000
+ My Time / Talkin' To Me / All I Wanna Know                                                                                 |       1984 |    -497337756166.000000
+ Fkn Mtlhds / Legions Of The Dead                                                                                           |          0 |    -124334438796.000000
+ Uspavanke                                                                                                                  |       1964 |                        
+ Suavemente                                                                                                                 |       1998 |    -621672195112.000000
+ Passengers                                                                                                                 |       1977 |                        
+ Take Cover                                                                                                                 |       1995 |    -683839414051.000000
+ Hurry Sundown                                                                                                              |       1977 |    -559504975562.000000
+ Manhattan Trax Vol 3 EP                                                                                                    |       1995 |                        
+ Do You Feel Me?                                                                                                            |       1993 |    -310836097219.000000
+ Rubbin' Me The Right Way                                                                                                   |       1989 |    -559504975761.000000
+ Άσε Με Φίλε Να Μεθύσω                                                                                                      |       1996 |                        
+ Indo-Jazz Fusions II                                                                                                       |       1968 |                        
+ Call My Name                                                                                                               |       1994 |                        
+ Room 19 (Sha La La La Lee)                                                                                                 |       1992 |                        
+ Not Guilty                                                                                                                 |       1981 |                        
+ Stranamore                                                                                                                 |       1978 |                        
+ Il Faudrait Leur Dire...                                                                                                   |       1999 |                        
+ Symphonies 1&8                                                                                                             |       1976 |    -497337755726.000000
+ Different Times - Lou Reed In The 70s                                                                                      |       1996 |    -932508292550.000000
+ Romeo And Juliet                                                                                                           |       1978 |    -683839414976.000000
+ Surface EP                                                                                                                 |       1997 |                        
+ One By One                                                                                                                 |       1992 |    -621672194781.000000
+ Pump It                                                                                                                    |       1990 |    -124334439140.000000
+ Heathers - Original Motion Picture Soundtrack                                                                              |       1989 |   -1429846052004.000000
+ Pavarotti & Friends For The Children Of Liberia                                                                            |       1998 |    -994675512086.000000
+ Calcutta!                                                                                                                  |       1961 |    -746006635529.000000
+ Nordindische Ragas - Live                                                                                                  |       1975 |    -310836093165.000000
+ Melodies Japonaises Pour Flute Et Harpe                                                                                    |       1978 |    -746006633824.000000
+ New Solos By An Old Master                                                                                                 |       1956 |                        
+ Rock N Roll                                                                                                                |       1981 |    -186501657937.000000
+ You're The Drug In My Life                                                                                                 |       1983 |    -124334438744.000000
+ Fantasy                                                                                                                    |       1993 |    -124334438857.000000
+ Hold Me Tight / You Don’t Know                                                                                             |       1991 |                        
+ Guitar On The Wild Side / Meditation Of The Soul                                                                           |          0 |    -124334439214.000000
+ Everybody Needs Somebody To Love                                                                                           |       1989 |     -62167219461.000000
+ 盡在不言中                                                                                                                 |       1993 |    -746006635214.000000
+ Raging E.P.                                                                                                                |       1991 |                        
+ It Happened One Bite                                                                                                       |       1978 |    -808173854906.000000
+ Istra Ti Materina: Part 1                                                                                                  |       1995 |    -497337755985.000000
+ De Dragul Tău                                                                                                              |       1988 |    -621672195557.000000
+ And That's A Fact With My Hand Up!                                                                                         |       1971 |    -373003315787.000000
+ A Child Of Our Time                                                                                                        |       1975 |                        
+ La Fete A Manu                                                                                                             |       1989 |                        
+ Поет Петр Лещенко                                                                                                          |       1989 |    -870341074021.000000
+ Waves                                                                                                                      |       1988 |    -621672195376.000000
+ American Classics For Loving And Dancing Pleasure                                                                          |       1974 |                        
+ Gagaku & Beyond                                                                                                            |       1976 |    -310836095901.000000
+ Party Plates                                                                                                               |       1995 |                        
+ Wings Of Change                                                                                                            |       1979 |                        
+ If You Did Not Exist                                                                                                       |       1991 |    -248668877971.000000
+ Sweet Thang                                                                                                                |       1997 |                        
+ Point Break                                                                                                                |       1994 |    -248668877975.000000
+ Mariposa                                                                                                                   |       1992 |    -683839414897.000000
+ Meleg Az Éjszaka                                                                                                           |       1981 |    -621672195496.000000
+ Pull Up To The Bumper                                                                                                      |       1986 |    -124334438907.000000
+ You Make Me Feel Brand New / I Can't Give You Anything (But My Love)                                                       |          0 |     -62167219471.000000
+ You Send Me                                                                                                                |       1957 |    -497337755792.000000
+ Zorba Le Grec (Musique Originale)                                                                                          |       1965 |    -124334439181.000000
+ Incognita / Life Force                                                                                                     |       1996 |    -186501657938.000000
+ Mluví K Vám Robot                                                                                                          |       1984 |    -124334439095.000000
+ The Silent Waves                                                                                                           |       1985 |    -124334437768.000000
+ I Am A Photograph                                                                                                          |       1977 |    -559504975691.000000
+ Jump In The River                                                                                                          |       1988 |                        
+ Лунная Рапсодия                                                                                                            |       1984 |    -808173854733.000000
+ Attack                                                                                                                     |       1992 |    -373003317246.000000
+ Eden's Island (The Music Of An Enchanted Isle)                                                                             |       1960 |                        
+ You Are The Man / Hard To Get                                                                                              |       1967 |    -124334439185.000000
+ Jailhouse                                                                                                                  |       1957 |                        
+ Ανέκδοτα Τραγούδια Στις 33 Στροφές Νο3                                                                                     |       1990 |                        
+ The Music Of The Grand Canyon                                                                                              |       1995 |    -683839414178.000000
+ Urban Sea                                                                                                                  |       1994 |    -186501658341.000000
+ Can't Get Enough                                                                                                           |       1974 |    -435170536424.000000
+ My Will To Survive                                                                                                         |       1975 |                        
+ Fuk Dat                                                                                                                    |       1993 |                        
+ Early Strawbs                                                                                                              |       1974 |   -1056842732298.000000
+ All I Can Do                                                                                                               |       1979 |    -621672195969.000000
+ The Coming Atlantis                                                                                                        |       1969 |    -497337756053.000000
+ Rock Of Ages                                                                                                               |       1983 |   -1056842731666.000000
+ I Ain't Yer House-Nigger                                                                                                   |       1997 |                        
+ What Can I Do For You                                                                                                      |       1975 |    -248668877624.000000
+ Ma Liberté                                                                                                                 |       1972 |    -683839415464.000000
+ Astrology For Young Lovers                                                                                                 |          0 |                        
+ U.S.A. Remix                                                                                                               |       1984 |                        
+ The Final Conflict / I'm Riffin' 1990 Remix                                                                                |       1990 |    -248668877814.000000
+ In Doubt '99                                                                                                               |          0 |    -248668877914.000000
+ Alibi                                                                                                                      |       1985 |    -683839415524.000000
+ Afternoon Of A Faun, Nocturnes, Jeux                                                                                       |       1970 |    -124334437864.000000
+ The Emigrants                                                                                                              |       1998 |    -870341073560.000000
+ They Call Me Scorpyo                                                                                                       |          0 |     -62167219401.000000
+ I'd Like To Teach The World To Sing                                                                                        |       1996 |    -621672195945.000000
+ Impact                                                                                                                     |       1996 |    -497337755992.000000
+ Of Myths And Legends                                                                                                       |       1975 |    -683839414281.000000
+ Disque D'or De Julien Clerc                                                                                                |       1977 |    -870341074078.000000
+ Flowin' In File                                                                                                            |       1993 |    -310836097684.000000
+ Public Foot The Roman                                                                                                      |       1973 |    -435170536050.000000
+ Mr. Right                                                                                                                  |       1987 |    -310836097619.000000
+ Vortice Cremisi                                                                                                            |       1995 |                        
+ Charlie Rich Sings Country & Western                                                                                       |       1967 |    -746006635154.000000
+ South Pacific                                                                                                              |       1962 |                        
+ Chief Inspector / Novela Das Nove                                                                                          |       1985 |    -124334438847.000000
+ Golpes Tocuyanos                                                                                                           |          0 |                        
+ Scheherazade / Capriccio Espagnol / Flight Of The Bumblebee                                                                |          0 |    -621672193884.000000
+ Pensando En Ti                                                                                                             |       1986 |                        
+ Hairy Situation                                                                                                            |       1980 |    -124334439074.000000
+ Savoir Aimer                                                                                                               |       1997 |    -683839414569.000000
+ Let Me Be The One                                                                                                          |       1984 |    -248668877708.000000
+ Elaine Sings Wilder                                                                                                        |       1992 |                        
+ Elvis Has Left The Building                                                                                                |       1992 |    -248668877756.000000
+ Durdurun Dünyayı                                                                                                           |       1981 |    -124334438949.000000
+ I Done Got Over                                                                                                            |          0 |    -124334439249.000000
+ Goldfinger (Original Motion Picture Score)                                                                                 |       1987 |                        
+ D.H.S.S. Bloo                                                                                                              |       1997 |     -62167219394.000000
+ Dear Independence                                                                                                          |       1964 |    -746006634771.000000
+ Toivon                                                                                                                     |       1994 |    -808173854263.000000
+ Ночной Звонок / Жар-птица / Свет Любви                                                                                     |       1980 |    -186501658598.000000
+ A New Dope                                                                                                                 |       1980 |    -621672194944.000000
+ I'll Find You                                                                                                              |       1994 |                        
+ Sings The Songs Of Dallas Frazier                                                                                          |       1968 |    -621672196173.000000
+ WOZ                                                                                                                        |       1981 |    -124334438608.000000
+ Pachanga Cha - Cha - Cha Anyone?                                                                                           |       1965 |                        
+ Twirk Your Body                                                                                                            |       1999 |                        
+ Песни Г. Портнова                                                                                                          |       1968 |                        
+ Stainless Steel Providers                                                                                                  |       1989 |    -124334438796.000000
+ Keep All The Fires Burning Bright                                                                                          |       1988 |    -186501658230.000000
+ Google Me                                                                                                                  |       1965 |    -373003317451.000000
+ Starlight                                                                                                                  |       1983 |    -621672192824.000000
+ Der Rosenkavalier (Highlights)                                                                                             |       1962 |                        
+ Things We Said Today                                                                                                       |       1976 |                        
+ Frankly Speaking / Executioner Style                                                                                       |       1989 |    -248668877902.000000
+ In Montreal                                                                                                                |       1995 |    -559504973116.000000
+ Be Strong Now                                                                                                              |       1998 |    -248668878269.000000
+ Classics In Jazz                                                                                                           |       1952 |                        
+ Quick Joey Small (Run Joey Run) / Rumble '69                                                                               |       1968 |    -124334439242.000000
+ Scheming                                                                                                                   |       1994 |                        
+ Lady Day And John Coltrane                                                                                                 |       1972 |                        
+ Angel Of The Morning                                                                                                       |       1981 |    -124334439127.000000
+ A Brighter Day                                                                                                             |       1993 |    -248668877813.000000
+ Be A Man                                                                                                                   |       1982 |    -870341073895.000000
+ Concerto De Violoncelle                                                                                                    |       1976 |                        
+ Everybody In Love                                                                                                          |       1967 |                        
+ Under The Arch                                                                                                             |       1972 |    -683839415058.000000
+ The Curse                                                                                                                  |       1986 |    -621672194897.000000
+ Volume 4                                                                                                                   |       1993 |    -124334438780.000000
+ The Need To Fly                                                                                                            |       1983 |    -373003316812.000000
+ Deep / Last Jam                                                                                                            |       1989 |                        
+ Best Of Me                                                                                                                 |       1972 |    -932508292306.000000
+ Love Me Crazy                                                                                                              |       1992 |                        
+ Knockin'                                                                                                                   |       1995 |    -186501658390.000000
+ Golden Sounds                                                                                                              |       1968 |    -373003316910.000000
+ Love's Old Sweet Song                                                                                                      |       1961 |     -62167219531.000000
+ Φωτιά Στα Σαββατόβραδα (1982 - 1992: Δέκα Χρόνια Τραγούδι)                                                                 |       1992 |                        
+ Sammlers Alptraum / Brooklynn Unity Rap                                                                                    |          0 |    -124334438906.000000
+ Faron Young Sings Occasional Wife & If I Ever Fall In Love With A Honky Tonk Girl                                          |       1970 |    -683839415711.000000
+ غيره \ وقف يا أسمر = Ghira / Wakef Ya Asmar                                                                                |          0 |                        
+ Ich Fühl Mich Wohl In Deinem Leben                                                                                         |       1989 |    -746006634236.000000
+ Form                                                                                                                       |       1995 |    -248668876851.000000
+ Weil Dein Herz Dich Verrät                                                                                                 |       1994 |    -124334439141.000000
+ Beechwood 4-5789 / Someday, Someway                                                                                        |       1962 |    -124334439240.000000
+ Assassin Of Love                                                                                                           |       1987 |    -124334439041.000000
+ Farmer John / Big Boy Pete                                                                                                 |       1959 |    -124334439239.000000
+ 4                                                                                                                          |       1981 |    -621672195080.000000
+ Die Neun Sinfonien                                                                                                         |          0 |                        
+ No More Words                                                                                                              |       1991 |                        
+ 6 Track E.P.                                                                                                               |       1988 |    -373003316648.000000
+ Hand In Hand                                                                                                               |       1988 |    -124334438744.000000
+ Dieu M'a Donné La Foi                                                                                                      |       1995 |    -124334438982.000000
+ Blue Waters                                                                                                                |       1993 |                        
+ Tourniquet / The Perfect Drug                                                                                              |       1996 |    -124334438794.000000
+ Fathoms                                                                                                                    |       1992 |                        
+ T.N.T. / Ten Dallon Hat                                                                                                    |          0 |    -124334439199.000000
+ The Afterparty                                                                                                             |       1997 |    -310836097414.000000
+ Fabrizio De André                                                                                                          |       1975 |    -497337755662.000000
+ Are You Coming Home Today?                                                                                                 |       1995 |    -124334439090.000000
+ Passion                                                                                                                    |       1980 |    -124334438213.000000
+ Médias Folies                                                                                                              |       1994 |                        
+ Never Gonna Let You Go                                                                                                     |       1976 |                        
+ Plan Of Action                                                                                                             |       1997 |                        
+ Leben Ist                                                                                                                  |       1991 |    -746006635082.000000
+ Сторона От                                                                                                                 |       1998 |   -1802849366534.000000
+ Listen To Your Heart                                                                                                       |       1988 |    -124334438971.000000
+ Wedding                                                                                                                    |       1982 |                        
+ Somebody Loves You (Extended Version)                                                                                      |       1992 |    -124334438900.000000
+ My Brain                                                                                                                   |       1980 |    -248668877895.000000
+ Two Timin' Lady                                                                                                            |          0 |    -124334439080.000000
+ Laid Insignificant                                                                                                         |       1999 |    -497337756363.000000
+ Keel                                                                                                                       |       1987 |    -621672195407.000000
+ Kootch                                                                                                                     |       1973 |    -559504975902.000000
+ Blues Expert (Disc De Ascultare Și De Înveselire)                                                                          |          0 |   -1181177172393.000000
+ I Like It (I Like How You're Lov'in Me)                                                                                    |       1994 |    -248668877131.000000
+ Rotation (Spirit Remix)                                                                                                    |       1999 |                        
+ Plays Solo Piano                                                                                                           |          0 |    -621672195350.000000
+ I'd Die Without You                                                                                                        |       1992 |                        
+ Hot! Hot!                                                                                                                  |       1978 |    -497337755916.000000
+ Omer I Merima                                                                                                              |       1966 |                        
+ Barehedd One / Higher                                                                                                      |       1994 |                        
+ Hidden                                                                                                                     |       1975 |    -124334438275.000000
+ Live Across Australia                                                                                                      |       1987 |                        
+ The Next Time I'm In Town                                                                                                  |       1970 |    -124334439117.000000
+ Blues With Big Bill Broonzy · Sonny Terry · Brownie McGhee                                                                 |       1965 |    -870341073798.000000
+ The Fool On The Hill / So Many Stars                                                                                       |       1968 |    -124334439063.000000
+ Kilimandjaro / Les Trois Dernières Minutes                                                                                 |       1967 |                        
+ The Inner Galactic Fusion Experience                                                                                       |       1996 |                        
+ Festival Of Fools                                                                                                          |       1997 |    -186501658069.000000
+ Dreamstate                                                                                                                 |       1998 |    -124334438652.000000
+ Change Your Ways                                                                                                           |       1989 |                        
+ Mixed Roots                                                                                                                |       1996 |    -435170535560.000000
+ Crayon                                                                                                                     |       1994 |   -1119009951527.000000
+ Snart Blir Det Sommar Igen / Krama Mej                                                                                     |       1969 |    -124334439143.000000
+ Remix 12'                                                                                                                  |       1986 |    -373003316780.000000
+ The Golden Hits Of                                                                                                         |       1964 |    -683839415842.000000
+ Adult Crash                                                                                                                |       1994 |    -559504975517.000000
+ Recuerdo De Amor                                                                                                           |          0 |                        
+ Waiting                                                                                                                    |       1999 |    -124334438779.000000
+ I Love To Dance                                                                                                            |       1976 |    -435170536110.000000
+ More Out Of Today                                                                                                          |       1995 |    -994675514032.000000
+ In Freundschaft · Traum-Formel · Amour                                                                                     |       1993 |    -435170535510.000000
+ Пушка                                                                                                                      |       1993 |    -808173854612.000000
+ Bossa Nova Suicide / Tidal Wave                                                                                            |       1985 |                        
+ Love Come Down: The Best Of Evelyn Champagne King                                                                          |       1993 |    -932508292528.000000
+ Matthew Fisher                                                                                                             |       1980 |                        
+ Micropoint vs. Psychiatrik                                                                                                 |       1997 |    -248668877794.000000
+ Theodorakis Dirige Theodorakis, Vol 2                                                                                      |       1972 |    -808173854405.000000
+ Free To Decide                                                                                                             |       1996 |                        
+ Home                                                                                                                       |       1972 |    -808173853806.000000
+ Pop Pop Pop-Pie                                                                                                            |       1962 |    -124334439276.000000
+ A Strange Day E.P                                                                                                          |          0 |    -310836097259.000000
+ Reverence                                                                                                                  |       1992 |                        
+ (Void)                                                                                                                     |       1995 |                        
+ Cruiser's Creek                                                                                                            |       1985 |                        
+ Make Way For The Ocean Floor To Fall To The Surface                                                                        |       1990 |                        
+ 12 Supersuccessi                                                                                                           |       1996 |                        
+ Turakaisten Paratiisi                                                                                                      |       1988 |                        
+ Give Me An Inch                                                                                                            |       1980 |    -124334439079.000000
+ ¡Ay, Caridad!                                                                                                              |       1976 |    -746006635117.000000
+ Legends Of Rock, Vol. 2, Rare Items                                                                                        |       1974 |   -1492013270722.000000
+ Touch The Sky                                                                                                              |       1983 |                        
+ Du Rhum, Des Femmes                                                                                                        |       1990 |    -124334439100.000000
+ Tranzient / Da Muzik                                                                                                       |       1995 |                        
+ Psichedelica                                                                                                               |       1968 |    -808173854977.000000
+ Любопытство                                                                                                                |          0 |                        
+ Right Away                                                                                                                 |       1995 |    -124334438947.000000
+ Single Women                                                                                                               |       1987 |     -62167219550.000000
+ La Noche Del Hawayano / Amanecer Guajiro                                                                                   |       1966 |                        
+ Touch The Moon                                                                                                             |       1987 |    -124334438993.000000
+ Bridge Over Troubled Water / Get Ready                                                                                     |       1970 |    -124334439135.000000
+ Kad Bi' Bio Bijelo Dugme                                                                                                   |       1974 |                        
+ Rock And Roll Madonna                                                                                                      |       1970 |                        
+ The Abyss                                                                                                                  |       1990 |                        
+ Wake Up                                                                                                                    |       1985 |    -435170535986.000000
+ Ξανθιά Γυναίκα                                                                                                             |       1990 |                        
+ Gracefully Chasing The Tail                                                                                                |       1991 |                        
+ Live! In The Air Age                                                                                                       |       1977 |    -621672194293.000000
+ Holst: The Planets, Op. 32                                                                                                 |       1980 |    -435170535078.000000
+ Don't Talk To Me                                                                                                           |       1988 |                        
+ I Am A Dope Fiend                                                                                                          |       1992 |    -808173854237.000000
+ Pacheco Y Su Charanga                                                                                                      |       1961 |    -683839415393.000000
+ Try A Little Tenderness / She Put The Hurt On Me                                                                           |       1971 |    -124334439142.000000
+ Years Not Living                                                                                                           |       1988 |    -621672195397.000000
+ Terra Firma                                                                                                                |       1998 |                        
+ Sweatin' To The Oldies: The Vandals Live                                                                                   |       1999 |                        
+ Here We Go Again                                                                                                           |       1959 |    -870341073839.000000
+ Suomi 50 - Runoja Ja Lauluja                                                                                               |       1969 |                        
+ You Give Jews A Bad Name                                                                                                   |       1994 |    -373003318010.000000
+ Hver Dag Er En Perfekt Dag                                                                                                 |       1992 |                        
+ It's A Man's World                                                                                                         |       1966 |    -870341072886.000000
+ L'Invitation                                                                                                               |       1981 |    -683839414689.000000
+ Goin' To L.A.                                                                                                              |       1977 |                        
+ Macino Kolo                                                                                                                |       1976 |                        
+ Piano Concerto In A Major Op.85 / Rondo Brillant In A Major Op.56                                                          |       1984 |                        
+ Rock Me Slowly / Saturday                                                                                                  |       1978 |    -124334439082.000000
+ Pourcel Digital                                                                                                            |       1983 |                        
+ Turn That Shit Up                                                                                                          |       1994 |                        
+ Penguins On The Moon                                                                                                       |       1986 |    -746006634258.000000
+ Jack Mix II                                                                                                                |       1987 |    -124334438808.000000
+ You Knocked The Love (Right Outta My Heart)                                                                                |       1990 |                        
+ Birds Of A Feather / It Got Away                                                                                           |       1968 |    -124334439212.000000
+ Hypocrites & Parasites / Bon Scott Version                                                                                 |       1995 |                        
+ Music And Gibran (A Contemporary Interpretation)                                                                           |          0 |    -435170536175.000000
+ Jad Fair & The Pastels N°2                                                                                                 |       1992 |                        
+ Anyplace, Anywhere, Anytime                                                                                                |       1980 |    -248668878163.000000
+ Quand On N'a Que L'amour                                                                                                   |       1996 |   -1429846050855.000000
+ Pesadillas                                                                                                                 |       1992 |    -559504975777.000000
+ How Sweet It Is / Everybody Talking                                                                                        |          0 |                        
+ Angelica / Looking At Tomorrow                                                                                             |       1966 |    -124334439217.000000
+ Themes From Superman                                                                                                       |       1979 |     -62167219167.000000
+ Die Schöne Müllerin                                                                                                        |       1972 |                        
+ Sange Fra Kælderen                                                                                                         |       1979 |    -435170536458.000000
+ Chinatown                                                                                                                  |       1980 |    -559504975412.000000
+ Hot Shot In Space                                                                                                          |       1990 |    -248668878178.000000
+ Struck Gold                                                                                                                |       1993 |    -310836097234.000000
+ Volume - The Best Of                                                                                                       |       1981 |                        
+ The Polka Dot Bear - The Story Of Creation                                                                                 |          0 |    -559504976707.000000
+ Народни Бисери                                                                                                             |       1987 |    -683839415239.000000
+ The New Star Of The Italian Radio-Television                                                                               |       1962 |                        
+ В Танцевальных Ритмах                                                                                                      |       1983 |                        
+ Koncert                                                                                                                    |       1987 |                        
+ Lakini's Juice                                                                                                             |       1997 |                        
+ Category 6                                                                                                                 |       1998 |    -621672194491.000000
+ Rockin' With The Best / Breakdown                                                                                          |       1991 |                        
+ Light The Flame Of Love                                                                                                    |       1980 |    -124334439107.000000
+ Get Lucky                                                                                                                  |       1981 |    -559504975454.000000
+ Blue Moon Of Kentucky                                                                                                      |       1971 |                        
+ Les Petites Rues De Singapour                                                                                              |       1983 |    -124334439140.000000
+ Seapeace (Music For Harp)                                                                                                  |       1978 |    -248668876673.000000
+ Will The Circe Be Unbroken                                                                                                 |       1972 |                        
+ The BBC Tapes - Volume IV - In Concert 1975                                                                                |       1997 |    -435170535299.000000
+ Taste Of Honey / 3rd Man Theme                                                                                             |       1965 |    -124334439210.000000
+ Resurrection                                                                                                               |       1995 |    -932508293163.000000
+ Roger                                                                                                                      |       1987 |    -373003316113.000000
+ On S'en Fout... Nous On S'aime (Bande Originale Du Film)                                                                   |       1982 |    -124334439061.000000
+ A. Decap - Sound Non-Stop Dancing Volume 7                                                                                 |          0 |                        
+ I'd Love You To Want Me / Me And You And A Dog Named Boo                                                                   |       1985 |    -124334439043.000000
+ Miracles Take Time                                                                                                         |       1969 |    -186501658478.000000
+ Everynight                                                                                                                 |       1978 |    -186501658364.000000
+ Szerencsejáték                                                                                                             |       1982 |                        
+ Полынь / Верба-Вербочка / Взрослые Дочери / Подкова                                                                        |       1973 |                        
+ Behind The Magnolia Curtain / Blow Your Top                                                                                |       1987 |                        
+ That Summer Feeling                                                                                                        |       1984 |    -186501658648.000000
+ Affair                                                                                                                     |       1988 |    -124334439132.000000
+ Andy Warhol                                                                                                                |       1982 |    -124334439127.000000
+ La Torre Di Babele                                                                                                         |       1976 |    -621672195153.000000
+ Pisces, Aquarius, Capricorn & Jones Ltd.                                                                                   |       1967 |    -746006635156.000000
+ Believe In Me / Don't Rush                                                                                                 |       1964 |                        
+ I Am Forever                                                                                                               |       1984 |    -124334438988.000000
+ Venus & The Razorblades                                                                                                    |       1977 |    -248668878266.000000
+ Introducing Danny Johnson                                                                                                  |       1978 |    -497337755765.000000
+ The Friends Of Mr. Cairo                                                                                                   |       1981 |    -373003316118.000000
+ Playing With The Elements                                                                                                  |       1985 |                        
+ Jazzy Lady                                                                                                                 |       1984 |                        
+ The Japan Syndrome                                                                                                         |       1997 |                        
+ Energy Trax                                                                                                                |       1995 |    -124334438650.000000
+ A Thousand Miles From Nowhere                                                                                              |       1973 |    -124334439058.000000
+ Hot 'N' Heavy | Live At The Ascension Loft                                                                                 |          0 |    -310836094801.000000
+ En Annan Del Av Vår Värld                                                                                                  |       1988 |    -186501658339.000000
+ Obećanje / Klik-Klak                                                                                                       |       1971 |                        
+ The Champ / Sound Of The Witch Doctors                                                                                     |       1968 |                        
+ (You Got) The Power Of Love                                                                                                |       1966 |                        
+ Caravan Of Love                                                                                                            |       1986 |    -124334439136.000000
+ Memories By The Score / Scorer                                                                                             |       1973 |                        
+ On The One                                                                                                                 |       1982 |                        
+ Bolomakoté                                                                                                                 |       1992 |    -559504975421.000000
+ All Star Remix Series                                                                                                      |       1993 |                        
+ The Original Rudolph The Red-Nosed Reindeer And Other Children's Christmas Favorites                                       |       1964 |                        
+ El Duende En Madrid                                                                                                        |       1997 |    -497337755171.000000
+ Glen Campbell Presents                                                                                                     |       1969 |    -621672196000.000000
+ All Over                                                                                                                   |       1963 |                        
+ Feels So Good                                                                                                              |       1977 |    -373003315810.000000
+ Tralala                                                                                                                    |       1996 |    -124334439103.000000
+ The Awakening                                                                                                              |       1999 |    -435170535893.000000
+ Babylon By Bus                                                                                                             |       1978 |    -808173852678.000000
+ Pretty Face                                                                                                                |       1987 |    -124334438769.000000
+ A Little Bit Of Heaven / Little Star                                                                                       |          0 |                        
+ Zondag In 't Zuiden                                                                                                        |       1995 |    -808173854248.000000
+ I Met Her In Church / What Kind Of Spell                                                                                   |          0 |    -124334439196.000000
+ Land Of 1,000 Dances                                                                                                       |       1966 |                        
+ Live At The Cimarron Ballroom                                                                                              |       1997 |                        
+ 1000 Sünden...                                                                                                             |          0 |    -559504976287.000000
+ Fake                                                                                                                       |       1987 |    -310836097689.000000
+ The World Of Donovan                                                                                                       |       1972 |                        
+ Howard Carpendale - Die LP Zur Tournee                                                                                     |       1978 |    -932508293749.000000
+ Unforgettable / Pretend                                                                                                    |          0 |                        
+ Anything Can Happen...                                                                                                     |       1988 |    -310836097380.000000
+ The Best Of The EMI Years                                                                                                  |          0 |                        
+ Live At The Roxy Club                                                                                                      |       1989 |    -373003317639.000000
+ You Betta Ask Somebody                                                                                                     |       1994 |                        
+ Music From The Godfather                                                                                                   |       1972 |                        
+ Eden's Fire                                                                                                                |       1984 |                        
+ Runnin' For The Red Light (I Gotta Life)                                                                                   |       1996 |    -248668877931.000000
+ Waiting For The War                                                                                                        |       1983 |                        
+ When The Cowboys Come                                                                                                      |       1992 |    -186501658589.000000
+ Balocchi E Profumi / Cara Piccina                                                                                          |       1955 |                        
+ Worst Case Scenario                                                                                                        |       1996 |                        
+ Loz Netto's Bzar                                                                                                           |       1982 |    -621672195485.000000
+ Southern Sons                                                                                                              |       1990 |    -186501658625.000000
+ A New Day                                                                                                                  |       1998 |                        
+ You Don't Believe Me                                                                                                       |       1981 |    -124334439190.000000
+ Pride And Joy                                                                                                              |       1983 |                        
+ Concert In Japan                                                                                                           |       1977 |    -373003314172.000000
+ Inside Your Brain                                                                                                          |       1996 |    -248668877591.000000
+ Ay! Mulata                                                                                                                 |          0 |                        
+ Buddy Odor Is A Gas!                                                                                                       |       1979 |    -870341074638.000000
+ Will 2K                                                                                                                    |       1999 |    -186501658575.000000
+ I Can't Let Go Of Your Love                                                                                                |       1970 |                        
+ Teil 1                                                                                                                     |       1989 |    -373003317171.000000
+ I Don't Wanna Go                                                                                                           |       1986 |                        
+ The Rhythm                                                                                                                 |       1991 |    -559504975459.000000
+ Setting Myself On Fire                                                                                                     |       1982 |    -124334439089.000000
+ Suspect                                                                                                                    |       1978 |    -186501658483.000000
+ Spy.der Mix                                                                                                                |          0 |    -435170536328.000000
+ Stand Up Straight                                                                                                          |       1998 |                        
+ Let It Loose                                                                                                               |       1989 |    -621672195308.000000
+ Raumpatrouille Orion                                                                                                       |       1992 |   -1119009953181.000000
+ Let's Talk It Over / Love Attack                                                                                           |       1996 |     -62167219615.000000
+ Little Flecks Of Foam Around Barking                                                                                       |       1989 |                        
+ Iter                                                                                                                       |       1986 |    -683839415096.000000
+ Light Years: The Very Best Of Electric Light Orchestra                                                                     |       1997 |   -2238019903007.000000
+ The Nearness Of You                                                                                                        |       1974 |    -497337756600.000000
+ Lay Lady Lay                                                                                                               |       1969 |    -124334439203.000000
+ El Le Visage Qui Voyage / Même L'amour                                                                                     |       1985 |    -124334439082.000000
+ Un Hommage De Quatre Chansons A Jacques Tati                                                                               |       1991 |    -248668878337.000000
+ Jazz... Has... A Sense Of Humor                                                                                            |       1999 |    -373003316591.000000
+ Dreams On Long Play                                                                                                        |       1995 |    -621672194208.000000
+ Till Then / P.S. I Love You                                                                                                |       1979 |                        
+ Lonesome Love                                                                                                              |       1964 |    -746006634549.000000
+ Evil Game                                                                                                                  |       1985 |    -621672195391.000000
+ Én Megálmodtalak                                                                                                           |       1977 |                        
+ Passion Selon Saint Marc = Markuspassion BWV 247                                                                           |          0 |                        
+ Rapid Transit                                                                                                              |       1983 |    -435170536108.000000
+ Nerorgasmo                                                                                                                 |       1997 |                        
+ Hapuslah Airmata Mu                                                                                                        |       1976 |    -621672195556.000000
+ The Meaning Of Love                                                                                                        |       1982 |    -124334438766.000000
+ Orchestral Music                                                                                                           |       1982 |                        
+ West Coast Girl                                                                                                            |       1995 |                        
+ Zoopsia                                                                                                                    |       1989 |    -373003316976.000000
+ Wallet Woman                                                                                                               |       1989 |    -124334438863.000000
+ Mask 4                                                                                                                     |       1981 |                        
+ Oooh Child                                                                                                                 |       1989 |    -124334438618.000000
+ Modern Pop Percussion (L'Oiseau Sans Pieds)                                                                                |          0 |                        
+ Bigger Than Jesus                                                                                                          |       1989 |    -808173854639.000000
+ Mestrud                                                                                                                    |       1975 |    -497337755341.000000
+ Insieme / Inch'Allah                                                                                                       |       1967 |    -124334439022.000000
+ Otello Highlights                                                                                                          |       1972 |                        
+ Deep In Need / Bring Back The Love                                                                                         |          0 |    -124334438408.000000
+ Trav'lin' Light                                                                                                            |       1959 |    -497337755940.000000
+ Alma Tädin Illuusio                                                                                                        |       1983 |    -621672194259.000000
+ G.C. Cameron                                                                                                               |       1976 |    -621672195516.000000
+ From These Ashes..                                                                                                         |       1980 |    -124334438817.000000
+ Fish Tales / Swarthy Songs For Swabs                                                                                       |       1991 |    -932508294214.000000
+ Heterogenial                                                                                                               |       1994 |    -435170535072.000000
+ Street Sense                                                                                                               |       1979 |    -373003316234.000000
+ Rock 'N Roll                                                                                                               |       1981 |    -124334438430.000000
+ Our Blue Side                                                                                                              |       1965 |                        
+ Tante Agathe                                                                                                               |          0 |    -124334439167.000000
+ Lifetime Woman                                                                                                             |       1988 |   -3792200393343.000000
+ Black 'N Dangerous                                                                                                         |       1996 |    -808173853352.000000
+ Heaven Knows                                                                                                               |       1978 |    -808173854853.000000
+ Голос И Ночь (I)                                                                                                           |       1990 |    -870341073973.000000
+ Expansion / Dance The Dream (Remix)                                                                                        |       1992 |                        
+ Concerto No. 20 For Piano And Orchestra In D Minor, KV 466 / Sonata In C Major, KV 330                                     |          0 |                        
+ Von Allen Gedanken Schätze Ich Doch Am Meisten Die Interessanten                                                           |       1997 |    -808173853568.000000
+ Eine Kleine Nachtmusik - Die Moldau - Les Préludes - Capriccio Italien                                                     |          0 |                        
+ Los Rebeldes Del Rock                                                                                                      |       1971 |                        
+ The Madness Must End                                                                                                       |       1994 |                        
+ Blumenwalzer Aus Der Nussknacker-Suite / Walzer Aus Der Serenade Für Streichorchester / Walzer Aus Dem Ballett Dornröschen |       1987 |                        
+ Aquarius                                                                                                                   |       1994 |    -124334438707.000000
+ Ivy                                                                                                                        |       1991 |    -186501658762.000000
+ La Luna                                                                                                                    |       1960 |    -248668877691.000000
+ I'm Not So Lucky (Showcase)                                                                                                |       1980 |                        
+ It Found A Voice...                                                                                                        |       1974 |                        
+ Quelques Notes Pour Anna                                                                                                   |       1981 |    -746006634838.000000
+ Klavierspielereien                                                                                                         |          0 |    -497337755570.000000
+ Your Move                                                                                                                  |       1983 |    -124334438599.000000
+ Bad Minded People                                                                                                          |          0 |                        
+ Septett Op. 20                                                                                                             |       1964 |                        
+ Treat Her Groovy / Rap-A-Tap                                                                                               |       1967 |    -124334439269.000000
+ Walk On... / Travelling                                                                                                    |       1979 |                        
+ The Next Time / Bachelor Boy                                                                                               |       1963 |                        
+ Comboio                                                                                                                    |          0 |    -559504975741.000000
+ A Conspiracy                                                                                                               |       1999 |    -621672194792.000000
+ Hot Stuff                                                                                                                  |       1979 |    -124334439066.000000
+ Texas Sugar / Strat Magik                                                                                                  |       1994 |    -559504974939.000000
+ When Does The Weekend?                                                                                                     |       1965 |    -248668878260.000000
+ Back To Life                                                                                                               |       1989 |                        
+ Look So Fine                                                                                                               |       1999 |    -124334438526.000000
+ Fliptop World (Remix) / An (Abridged) Taste Of Humbug                                                                      |       1996 |                        
+ House It                                                                                                                   |       1997 |    -248668877588.000000
+ I'm Alright / So Near And Yet So Far                                                                                       |          0 |     -62167219634.000000
+ Subterranean Hitz Vol. I                                                                                                   |       1997 |                        
+ The Raven / The Cask Of Amontillado                                                                                        |       1978 |    -124334439015.000000
+ Old Fashioned Feeling                                                                                                      |       1970 |    -124334439090.000000
+ Chants D'Auvergne Vol. 1 • Folge 1                                                                                         |       1983 |    -808173853960.000000
+ Magic Fly                                                                                                                  |       1977 |    -248668877369.000000
+ Sound Of Speed Circles Vol.1                                                                                               |          0 |                        
+ Chamber Music For Flute (Complete)                                                                                         |          0 |                        
+ Live!                                                                                                                      |       1975 |    -373003316666.000000
+ Make Me Fly                                                                                                                |       1996 |    -124334438871.000000
+ Georgy Girl                                                                                                                |       1967 |    -124334439193.000000
+ Flying Dreams                                                                                                              |       1978 |    -248668877549.000000
+ Oxygene (The Complete Oxygene)                                                                                             |       1997 |   -1429846046148.000000
+ Cypher                                                                                                                     |       1996 |    -808173854066.000000
+ A Charlie Brown Christmas                                                                                                  |       1965 |    -746006634738.000000
+ Right By The Moon                                                                                                          |       1984 |    -124334438754.000000
+ Kenton In Hi Fi                                                                                                            |       1956 |    -746006634600.000000
+ For Mama                                                                                                                   |       1969 |    -683839415533.000000
+ Cantos De Venezuela                                                                                                        |       1975 |                        
+ Water                                                                                                                      |       1970 |    -621672193574.000000
+ Cleanhead Blues                                                                                                            |       1996 |    -746006634146.000000
+ The Phoenix                                                                                                                |       1979 |    -621672195034.000000
+ Girl, Ich Brauch' Dich                                                                                                     |       1988 |    -124334438980.000000
+ Shout! Shout! (Knock Yourself Out)                                                                                         |       1982 |    -124334439202.000000
+ Whatever Gets You Thru' The Night                                                                                          |       1974 |    -124334439110.000000
+ Give It What You Got                                                                                                       |       1975 |    -124334439081.000000
+ You Came                                                                                                                   |       1988 |    -124334439032.000000
+ Windfall / Legacy                                                                                                          |       1996 |    -124334439138.000000
+ Summer Breeze                                                                                                              |       1983 |    -621672195259.000000
+ Ensemble Folklorique Timișul                                                                                               |          0 |    -932508294040.000000
+ Tell Me Who                                                                                                                |       1956 |                        
+ Raw Meat                                                                                                                   |       1977 |                        
+ Can't Take It With You / Sail Away                                                                                         |       1979 |    -124334439095.000000
+ Bela Lugosi's Dead                                                                                                         |       1986 |    -186501658436.000000
+ The King Tito Puente / El Rey Tito Puente                                                                                  |          0 |    -559504976050.000000
+ The Eternal Quest                                                                                                          |          0 |    -746006634526.000000
+ Starring In...Standing In A Monkey Sea                                                                                     |       1990 |    -683839414615.000000
+ Turquoise / Mutant Jazz                                                                                                    |       1995 |                        
+ Spiritual Gospel                                                                                                           |       1966 |    -746006635088.000000
+ The Strings Of My Heart                                                                                                    |       1974 |    -124334439246.000000
+ You're My One And Only                                                                                                     |       1989 |    -248668877347.000000
+ Live At Sing Sing                                                                                                          |       1972 |    -310836096325.000000
+ Mental Blocks For All Ages                                                                                                 |       1991 |                        
+ The Best Of Wildtrax                                                                                                       |       1995 |    -248668877561.000000
+ Reunion                                                                                                                    |       1998 |   -1119009949242.000000
+ Phaedra • Lachrymae • The Sword In The Stone • Night Mail • Sinfonietta                                                    |       1996 |    -310836095880.000000
+ Oh How Happy                                                                                                               |       1990 |    -124334439252.000000
+ Lady                                                                                                                       |       1984 |                        
+ Got The Feeling                                                                                                            |       1990 |    -186501658289.000000
+ Femmina                                                                                                                    |       1977 |    -497337755694.000000
+ Words, Music, Laughter And Tears                                                                                           |       1968 |    -621672195899.000000
+ Live At The Pickwick!                                                                                                      |       1998 |    -808173854356.000000
+ Saturday Night / Sunday Night At The Blackhawk, San Francisco                                                              |       1962 |    -435170536278.000000
+ Clarinet Concerto / Sinfonia Concertante                                                                                   |       1998 |                        
+ Drum Tango                                                                                                                 |       1994 |    -124334439284.000000
+ Funky Chicken                                                                                                              |       1970 |    -497337756762.000000
+ Heartbeat (Be My Babe)                                                                                                     |       1998 |    -248668878097.000000
+ The Essential Billie Holiday (Carnegie Hall Concert Recorded Live)                                                         |          0 |    -808173854813.000000
+ Down In Tennessee / (Let's Do It Again) Anniversary Twist                                                                  |       1962 |    -124334439237.000000
+ House Affair                                                                                                               |       1988 |                        
+ On The Attack                                                                                                              |       1994 |                        
+ Your Body Is An Outlaw                                                                                                     |       1980 |                        
+ Too Much                                                                                                                   |       1998 |                        
+ From Russia With Love (Original Motion Picture Soundtrack)                                                                 |          0 |                        
+ Full Monty Boyz / The Way Of Life                                                                                          |       1992 |                        
+ I Want To Spend My Lifetime Loving You                                                                                     |       1998 |    -124334439060.000000
+ Little City Woman / Lonesome                                                                                               |       1987 |                        
+ Finesse                                                                                                                    |       1984 |                        
+ -In-A-Gadda-Da-Vida                                                                                                        |       1969 |    -373003316406.000000
+ Rougher Yet                                                                                                                |          0 |                        
+ Mad Gigolo                                                                                                                 |       1999 |    -186501658376.000000
+ Get 'Em Down                                                                                                               |       1992 |    -310836097443.000000
+ Mantovani Encores                                                                                                          |       1957 |    -683839415291.000000
+ Rock Party/Smoke On The Water                                                                                              |       1987 |    -373003317479.000000
+ Slaughterhouse Invitation                                                                                                  |       1989 |                        
+ Un Grand Amour                                                                                                             |       1971 |    -124334439070.000000
+ Spiral Staircase                                                                                                           |       1973 |    -808173854766.000000
+ Within My Heart                                                                                                            |       1991 |    -310836097528.000000
+ Breakout                                                                                                                   |       1986 |    -746006634752.000000
+ Just For You                                                                                                               |       1967 |    -124334439022.000000
+ High Tension                                                                                                               |       1990 |     -62167219551.000000
+ If Ever I Would Leave You                                                                                                  |       1998 |    -559504976189.000000
+ Magic Lady                                                                                                                 |       1988 |    -497337756039.000000
+ Home To You                                                                                                                |       1970 |                        
+ Taste Of The Young Heart                                                                                                   |       1979 |                        
+ Sweet Georgia Brown / Freight Train                                                                                        |       1978 |                        
+ Banana Water / Double Shot                                                                                                 |       1969 |                        
+ The Way It Is                                                                                                              |       1986 |    -559504975257.000000
+ Volume Two: Solo Acoustic Guitar                                                                                           |       1997 |    -435170535659.000000
+ Gold                                                                                                                       |       1970 |                        
+ Original Silencer / Back Against The Wall                                                                                  |       1995 |                        
+ Il Mondo Dei Giovani Vol. 1                                                                                                |       1999 |    -683839415394.000000
+ Suspicious Minds                                                                                                           |       1986 |    -124334439018.000000
+ Rockfish Crossing                                                                                                          |       1972 |    -621672195336.000000
+ Set Ya Free                                                                                                                |       1992 |    -248668877770.000000
+ The Oak Tree Rapp                                                                                                          |       1986 |    -186501658088.000000
+ Burst                                                                                                                      |       1988 |                        
+ This House Is Not A Home                                                                                                   |       1995 |                        
+ This Is High Fidelity                                                                                                      |       1955 |                        
+ Mind Over Manhattan                                                                                                        |       1996 |                        
+ Whoop 'Em Up Cindy                                                                                                         |       1926 |                        
+ Исполнение Итальянской Певицы Мильва                                                                                       |          0 |                        
+ Meet Me At The Twistin' Place                                                                                              |       1962 |    -124334439209.000000
+ The Receiver                                                                                                               |       1980 |    -248668878063.000000
+ Don't Forget To Remember                                                                                                   |       1969 |    -124334439180.000000
+ Superslick / Lovemaker                                                                                                     |       1978 |    -124334438827.000000
+ Paris Concert                                                                                                              |       1990 |    -124334436827.000000
+ Bluegrass Hootenanny                                                                                                       |       1964 |                        
+ Discovered Again!                                                                                                          |          0 |                        
+ The Golden Orpheus Festival 84                                                                                             |       1984 |                        
+ Your Sweet Love / Just As Much As Ever                                                                                     |       1959 |    -124334439245.000000
+ She's A Devil                                                                                                              |       1996 |                        
+ In The Bottle                                                                                                              |       1983 |    -124334438821.000000
+ Spirits Having Flown                                                                                                       |       1979 |    -621672194923.000000
+(587 rows)
+
+ nombre_discos | anno_disco | formato | anno_edicion | pais 
+---------------+------------+---------+--------------+------
+(0 rows)
+
+ nombre_discos | anno_disco | formato | anno_edicion | pais | estado 
+---------------+------------+---------+--------------+------+--------
+(0 rows)
+
+          nombre          | num_ediciones | anno_min | anno_max |      anno_medio       
+--------------------------+---------------+----------+----------+-----------------------
+ Marta Díaz Moreno        |            35 |        0 |     2022 | 1885.3428571428571429
+ Javier Fernández Moreno  |            13 |     1962 |     2014 | 1986.8461538461538462
+ Pedro Díaz Rodríguez     |            21 |     1966 |     2019 | 1998.0000000000000000
+ Luis Gómez García        |            31 |     1957 |     2023 | 1991.5161290322580645
+ Javier Gómez Sánchez     |            33 |        0 |     2022 | 1877.3939393939393939
+ Juan García Gómez        |            22 |        0 |     2012 | 1899.0000000000000000
+ Carlos Fernández López   |            15 |     1970 |     2018 | 1994.6666666666666667
+ Sergio Fernández Moreno  |             6 |     1970 |     2015 | 1989.0000000000000000
+ María Martínez Rodríguez |            38 |        0 |     2022 | 1943.1315789473684211
+ Ana López Fernández      |             8 |     1972 |     2023 | 1997.5000000000000000
+ Marta Moreno Díaz        |            26 |        0 |     2017 | 1911.5000000000000000
+ Pedro Fernández Álvarez  |            16 |     1970 |     2022 | 1995.8750000000000000
+ Pedro López Pérez        |            26 |        0 |     2022 | 1841.8461538461538462
+ Marta López Martínez     |            17 |     1957 |     2022 | 1991.7058823529411765
+ Sergio Pérez Moreno      |            34 |     1957 |     2020 | 1997.3235294117647059
+ Lorena Sáez Pérez        |            29 |        0 |     2023 | 1862.1724137931034483
+(16 rows)
+
+ nombre 
+--------
+(0 rows)
+
+          nombre          
+--------------------------
+ María Martínez Rodríguez
+(1 row)
+
+ROLLBACK
