@@ -344,10 +344,9 @@ LIMIT 1;
 
 \echo 'Consulta 4: De los discos que tiene en su lista de deseos el usuario Juan Garcia Gomez, indicar el nombre de los grupos musicales que los interpretan.'
 
-SELECT DISTINCT grupos.Nombre
+SELECT usuario.Nombre, desea.Nombre_discos, edita.Nombre_grupo
 FROM bbdd.desea
-JOIN bbdd.edita ON desea.Nombre_discos = edita.Nombre_discos AND desea.Anno_disco = edita.Anno_disco
-JOIN bbdd.grupos ON edita.Nombre_grupo = grupos.Nombre
+JOIN bbdd.edita ON desea.Nombre_discos = edita.Nombre_discos
 JOIN bbdd.usuario ON desea.Nombre_usuario = usuario.Nombre_usuario
 WHERE usuario.Nombre = 'Juan Garcia Gomez';
 
@@ -421,11 +420,11 @@ GROUP BY usuario.Nombre;
 
 \echo 'Consulta 11: Listar el nombre de los grupos que tienen mas de 5 ediciones de sus discos en la base de datos.'
 
-SELECT grupos.Nombre
+SELECT edita.Nombre_grupo
 FROM bbdd.edita
-JOIN bbdd.grupos ON edita.Nombre_grupo = grupos.Nombre
-GROUP BY grupos.Nombre
-HAVING COUNT(edita.Nombre_discos) > 5;
+JOIN bbdd.ediciones ON edita.Nombre_discos = ediciones.Nombre_discos AND edita.Anno_disco = ediciones.Anno_disco
+GROUP BY edita.Nombre_grupo
+HAVING COUNT(ediciones.Nombre_discos) > 5;
 
 
 \echo 'Consulta 12: Lista el usuario que mas discos, contando todas sus ediciones tiene en la base de datos.'

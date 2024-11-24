@@ -555,8 +555,8 @@ INSERT 0 162
  In A Word: Yes (1969 -    ) |             2008 |            22443.000000
 (1 row)
 
- nombre 
---------
+ nombre | nombre_discos | nombre_grupo 
+--------+---------------+--------------
 (0 rows)
 
                                       nombre                                       | anno_publicacion | formato | anno_edicion |     pais     
@@ -1537,9 +1537,10 @@ INSERT 0 162
  Lorena Sáez Pérez        |            29 |        0 |     2023 | 1862.1724137931034483
 (16 rows)
 
- nombre 
---------
-(0 rows)
+  nombre_grupo   
+-----------------
+ Sleepy Sleepers
+(1 row)
 
           nombre          
 --------------------------
